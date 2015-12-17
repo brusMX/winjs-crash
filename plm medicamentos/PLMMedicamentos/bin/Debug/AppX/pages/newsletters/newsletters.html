@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <!-- WinJS references -->
+    <script src="../../js/newsletters.js"></script>
+</head>
+<body>
+    <div class="app-bar-page">
+        <div class="app-bar-page-header">
+            <h3 class="win-h3 newsletters">Newsletters</h3>
+        </div>
+        <div class="app-bar-page-content">
+            <div id="customList" class="custom-list"></div>
+            <br />
+        </div>
+    </div>
+    <div class="app-bar-footer">
+        <div class="win-toolbar" data-win-options="{ placement: 'bottom' }">
+            <button data-win-control="WinJS.UI.Command" data-win-options="{
+                        id: 'shareNewsletter',
+                        type: 'button',
+                        icon: 'world'
+                    }"></button>
+        </div>
+    </div>
+    <div id="socialNetworksFlyout" class="social-networks-flyout-container">
+        <div id="socialNetworksList" class="win-flyout social-networks-flyout"></div>
+    </div>
+</body>
+</html>

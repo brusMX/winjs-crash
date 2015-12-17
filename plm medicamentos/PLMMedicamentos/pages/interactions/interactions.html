@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <!-- WinJS references -->
+    <script src="../../js/interactions.js"></script>
+</head>
+<body>
+    <div class="app-bar-page">
+        <div class="app-bar-page-header">
+            <h3 class="win-h3 interactions">Interacciones Medicamentosas</h3>
+
+            <div class="header-info">
+                Agregue medicamentos que desee interaccionar.
+            </div>
+        </div>
+        <div class="app-bar-page-content">
+            <div class="list-item-holder" data-win-control="WinJS.Binding.Template">
+                <div class="interactions-item">
+                    <div class="interactions-item-text">
+                        <span data-win-bind="innerText: Brand"></span><br />
+                        <i><span data-win-bind="innerText: PharmaForm"></span></i>
+                    </div>
+                    <div class="interactions-item-cross">&#xd7;</div>
+                </div>
+            </div>
+
+            <div id="resultsList" class="interactions-list"
+                 data-win-control="WinJS.UI.ListView"
+                 data-win-options="{
+                itemTemplate: select('.list-item-holder'),
+                selectionMode: WinJS.UI.SelectionMode.single,
+                layout: { type: WinJS.UI.ListLayout },
+             }"></div>
+        </div>
+    </div>
+    <div class="app-bar-footer">
+        <div class="win-toolbar">
+            <button data-win-control="WinJS.UI.Command" data-win-options="{
+                        id: 'interactionsInstructions',
+                        type: 'button',
+                        icon: 'document'
+                    }"></button>
+            <button data-win-control="WinJS.UI.Command" data-win-options="{
+                        id: 'addProducts',
+                        type: 'button',
+                        icon: 'add'
+                    }"></button>
+            <button data-win-control="WinJS.UI.Command" data-win-options="{
+                        id: 'deleteProducts',
+                        type: 'button',
+                        icon: 'delete'
+                    }"></button>
+            <button data-win-control="WinJS.UI.Command" data-win-options="{
+                        id: 'interactProducts',
+                        type: 'button',
+                        icon: 'remote'
+                    }"></button>
+            <!--<button data-win-control="WinJS.UI.Command" data-win-options="{
+                        id: 'interactionReferences',
+                        type: 'button',
+                        icon: 'important'
+                    }"></button>-->
+        </div>
+    </div>
+</body>
+</html>

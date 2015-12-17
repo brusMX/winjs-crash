@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>clinicalAnalyzes</title>
+
+    <script src="/js/clinicalAnalyzesMenu.js"></script>
+</head>
+<body>
+    <header aria-label="Header content" role="banner">
+        <h3 class="win-h3 deaci">Buscador de an&aacute;lisis Clínicos e Imageneolog&iacute;a</h3>
+        <div class="sectionInfo">
+            En esta secci&oacute;n usted podr&aacute; consultar la informaci&oacute;n de las compa&ntilde;ias, empresas, distribuidores, fabricantes, aparatos, etc.
+            por medio de nuestros diferentes cat&aacute;logos.
+        </div>
+
+    </header>
+
+    
+        <div class="fragment">
+            <div id="emptyList" style="display:none;"></div>
+            <div class="tileTemplate" data-win-control="WinJS.Binding.Template">
+                <div class="templ">
+                    <img class="image" data-win-bind="src: picture" />
+                    <div>
+                        <div class="submenuText" data-win-bind="innerText: title"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="clinicalList" class="listBox" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', maxDeferredItemCleanup: '20', itemTemplate: select('.tileTemplate')}"></div>
+
+        </div>
+</body>
+</html>

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+      <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+      <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+      <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0'">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>$(VersionNumberMajor).$(VersionNumberMinor)</MinimumVisualStudioVersion>
+    <DefaultLanguage>es-ES</DefaultLanguage>
+    <PackageCertificateKeyFile>PLMMedicamentos_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="app-config-CAD.xml" />
+    <Content Include="app-config-CHI.xml" />
+    <Content Include="app-config-COL.xml" />
+    <Content Include="app-config-ECU.xml" />
+    <Content Include="app-config-MEX.xml" />
+    <Content Include="app-config-PER.xml" />
+    <Content Include="css\clinicalAnalyzesIPPStyles.css" />
+    <Content Include="css\healthcareSuppliersIPPStyles.css" />
+    <Content Include="css\ippStyles.css" />
+    <Content Include="css\navigation.css" />
+    <Content Include="images\graphicalEnvironment\logo\logo_blue.png" />
+    <Content Include="images\graphicalEnvironment\mainmenu\mainmenu_interactions.png" />
+    <Content Include="images\graphicalEnvironment\mainmenu\mainmenu_clinical_analyzes.png" />
+    <Content Include="images\graphicalEnvironment\mainmenu\mainmenu_favorites.png" />
+    <Content Include="images\graphicalEnvironment\mainmenu\mainmenu_healthcare_suppliers.png" />
+    <Content Include="images\graphicalEnvironment\mainmenu\mainmenu_newsletters.png" />
+    <Content Include="images\graphicalEnvironment\mainmenu\mainmenu_patient_content.png" />
+    <Content Include="images\graphicalEnvironment\mainmenu\mainmenu_products.png" />
+    <Content Include="images\graphicalEnvironment\mainmenu\mainmenu_settings.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_companiesInvolved.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_devicesAndEquipments.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_imagingAndRadiology.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_index.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_kitsAndReagents.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_laboratoriesDirectory.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_laboratoryComputing.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_manufacturersAndDistributors.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_microbiology.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_molecularBiology.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_deaci_stripsAndTablets.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_healthcare_brands.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_healthcare_enterprises.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_healthcare_categories.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_patient_content_facebook.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_patient_content_google.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_patient_content_twitter.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_search_results_indications.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_search_results_laboratories.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_search_results_products.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_search_results_substances.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_settings_contact.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_settings_countries.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_settings_credits.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_settings_privacy.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_settings_profile.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_settings_suggestions.png" />
+    <Content Include="images\graphicalEnvironment\submenus\submenu_settings_terms.png" />
+    <Content Include="js\about.js" />
+    <Content Include="js\app-config.js" />
+    <Content Include="js\clinicalAnalyzesBrandsIndex.js" />
+    <Content Include="js\clinicalAnalyzesCitiesByState.js" />
+    <Content Include="js\clinicalAnalyzesLaboratoriesDirectory.js" />
+    <Content Include="js\contact.js" />
+    <Content Include="js\healthcareSuppliersBrands.js" />
+    <Content Include="js\healthcareSuppliersBrandsMenu.js" />
+    <Content Include="js\healthcareSuppliersCategories.js" />
+    <Content Include="js\healthcareSuppliersCategoriesByParent.js" />
+    <Content Include="js\healthcareSuppliersCategoriesMenu.js" />
+    <Content Include="js\healthcareSuppliersBrandsByClient.js" />
+    <Content Include="js\healthcareSuppliersCategoriesByClient.js" />
+    <Content Include="js\healthcareSuppliersCategoryDetail.js" />
+    <Content Include="js\healthcareSuppliersCategoryDetailByClient.js" />
+    <Content Include="js\healthcareSuppliersClientCategoriesByParent.js" />
+    <Content Include="js\healthcareSuppliersClientDetail.js" />
+    <Content Include="js\healthcareSuppliersClients.js" />
+    <Content Include="js\healthcareSuppliersClientsByBrand.js" />
+    <Content Include="js\healthcareSuppliersClientsMenu.js" />
+    <Content Include="js\patientContentMenu.js" />
+    <Content Include="js\healthcareSuppliersMenu.js" />
+    <Content Include="js\clinicalAnalyzesMenu.js" />
+    <Content Include="js\clinicalAnalyzesCompaniesByBrand.js" />
+    <Content Include="js\clinicalAnalyzesCompaniesByCity.js" />
+    <Content Include="js\clinicalAnalyzesCompanyDetail.js" />
+    <Content Include="js\clinicalAnalyzesCompanyProducts.js" />
+    <Content Include="js\CountriesClass.js" />
+    <Content Include="js\clinicalAnalyzesDevicesAndEquipments.js" />
+    <Content Include="js\clinicalAnalyzesGenericsIndex.js" />
+    <Content Include="js\healthcareSuppliersProductContents.js" />
+    <Content Include="js\healthcareSuppliersProducts.js" />
+    <Content Include="js\healthcareSuppliersSearchEngine.js" />
+    <Content Include="js\clinicalAnalyzesImagingAndRadiology.js" />
+    <Content Include="js\clinicalAnalyzesImagingAndRadiologyIndex.js" />
+    <Content Include="js\clinicalAnalyzesIndex.js" />
+    <Content Include="js\clinicalAnalyzesKitsAndReagents.js" />
+    <Content Include="js\clinicalAnalyzesLaboratoryComputing.js" />
+    <Content Include="js\indications.js" />
+    <Content Include="js\interactionsResults.js" />
+    <Content Include="js\interactions.js" />
+    <Content Include="js\interactionsIndications.js" />
+    <Content Include="js\interactionsLabs.js" />
+    <Content Include="js\interactionsProducts.js" />
+    <Content Include="js\interactionsSearchEngine.js" />
+    <Content Include="js\InteractionsServicesClass.js" />
+    <Content Include="js\interactionsSubstances.js" />
+    <Content Include="js\labs.js" />
+    <Content Include="js\LogsServicesClass.js" />
+    <Content Include="js\OrientationClass.js" />
+    <Content Include="js\LoaderClass.js" />
+    <Content Include="js\ClientsServicesClass.js" />
+    <Content Include="js\ConectivityClass.js" />
+    <Content Include="js\LocalStorageClass.js" />
+    <Content Include="js\clinicalAnalyzesManufacturersAndDistributors.js" />
+    <Content Include="js\clinicalAnalyzesMicrobiology.js" />
+    <Content Include="js\clinicalAnalyzesMolecularBiology.js" />
+    <Content Include="js\clinicalAnalyzesParticipatingCompanies.js" />
+    <Content Include="js\PharmaServicesClass.js" />
+    <Content Include="js\clinicalAnalyzesProductContent.js" />
+    <Content Include="js\clinicalAnalyzesProductsBySection.js" />
+    <Content Include="js\countries.js" />
+    <Content Include="js\error.js" />
+    <Content Include="js\newsletters.js" />
+    <Content Include="js\productDetail.js" />
+    <Content Include="js\favorites.js" />
+    <Content Include="js\products.js" />
+    <Content Include="js\settingsMenu.js" />
+    <Content Include="js\searchEngine.js" />
+    <Content Include="js\navigation.js" />
+    <Content Include="js\NavigationClass.js" />
+    <Content Include="js\PLMMedicamentosVars.js" />
+    <Content Include="js\profile.js" />
+    <Content Include="js\register.js" />
+    <Content Include="js\RESTServicesClass.js" />
+    <Content Include="js\PLMMedicamentosObjects.js" />
+    <Content Include="js\clinicalAnalyzesSectionsByParent.js" />
+    <Content Include="js\clinicalAnalyzesStripsAndTablets.js" />
+    <Content Include="js\clinicalAnalyzesTrademarkIndex.js" />
+    <Content Include="js\substances.js" />
+    <Content Include="js\suggestions.js" />
+    <Content Include="js\WindowsStorageClass - Copia.js" />
+    <Content Include="js\WindowsStorageClass.js" />
+    <Content Include="js\XMLClass.js" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesBrandsIndex.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesCitiesByState.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesLaboratoriesDirectory.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesMenu.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesCompaniesByBrand.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesCompaniesByCity.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesCompanyDetail.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesCompanyProducts.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesDevicesAndEquipments.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesGenericsIndex.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesImagingAndRadiology.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesImagingAndRadiologyIndex.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesIndex.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesKitsAndReagents.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesLaboratoryComputing.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesManufacturersAndDistributors.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesMicrobiology.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesMolecularBiology.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesParticipatingCompanies.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesProductContent.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesProductsBySection.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesSectionsByParent.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesStripsAndTablets.html" />
+    <Content Include="pages\clinicalAnalyzes\clinicalAnalyzesTrademarkIndex.html" />
+    <Content Include="pages\error\error.html" />
+    <Content Include="pages\favorites\favorites.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersBrands.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersBrandsMenu.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersCategories.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersCategoriesByParent.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersCategoriesMenu.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersCategoryDetailByClient.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersClients.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersClientsMenu.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersBrandsByClient.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersCategoriesByClient.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersCategoryDetail.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersClientCategoriesByParent.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersClientDetail.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersClientsByBrand.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersMenu.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersProductContents.html" />
+    <Content Include="pages\healthcareSuppliers\healthcareSuppliersProducts.html" />
+    <Content Include="pages\indications\indications.html" />
+    <Content Include="pages\interactions\interactionsResults.html" />
+    <Content Include="pages\interactions\interactions.html" />
+    <Content Include="pages\interactions\interactionsIndications.html" />
+    <Content Include="pages\interactions\interactionsLabs.html" />
+    <Content Include="pages\interactions\interactionsProducts.html" />
+    <Content Include="pages\interactions\interactionsSearchEngine.html" />
+    <Content Include="pages\interactions\interactionsSubstances.html" />
+    <Content Include="pages\labs\labs.html" />
+    <Content Include="pages\navigation\navigation.html" />
+    <Content Include="pages\newsletters\newsletters.html" />
+    <Content Include="pages\patientContent\patientContentMenu.html" />
+    <Content Include="pages\products\productDetail.html" />
+    <Content Include="pages\products\products.html" />
+    <Content Include="pages\products\searchEngine.html" />
+    <Content Include="pages\settings\contact.html" />
+    <Content Include="pages\settings\countries.html" />
+    <Content Include="pages\settings\about.html" />
+    <Content Include="pages\settings\settingsMenu.html" />
+    <Content Include="pages\settings\profile.html" />
+    <Content Include="pages\settings\register.html" />
+    <Content Include="pages\settings\suggestions.html" />
+    <Content Include="pages\substances\substances.html" />
+    <Content Include="PLMMedicamentos.html" />
+    <Content Include="images\graphicalEnvironment\logo\logo_white.png" />
+    <Content Include="images\LockScreenLogo.scale-200.png" />
+    <Content Include="images\SplashScreen.scale-200.png" />
+    <Content Include="images\Square150x150Logo.scale-200.png" />
+    <Content Include="images\Square44x44Logo.scale-200.png" />
+    <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="images\StoreLogo.png" />
+    <Content Include="images\Wide310x150Logo.scale-200.png" />
+    <Content Include="js\PLMMedicamentos.js" />
+    <Content Include="css\PLMMedicamentos.css" />
+    <Content Include="WinJS\css\ui-dark.css" />
+    <Content Include="WinJS\css\ui-light.css" />
+    <Content Include="WinJS\fonts\Symbols.ttf" />
+    <Content Include="WinJS\js\en-US\ui.strings.js" />
+    <Content Include="WinJS\js\base.js" />
+    <Content Include="WinJS\js\ui.js" />
+    <None Include="PLMMedicamentos_TemporaryKey.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

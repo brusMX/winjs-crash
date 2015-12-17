@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>PLM Medicamentos</title>
+
+    <!-- Referencias de WinJS -->
+    <link href="/WinJS/css/ui-light.css" rel="stylesheet" />
+    <script src="/WinJS/js/base.js"></script>
+    <script src="/WinJS/js/ui.js"></script>
+
+    <!-- Referencias de PLMMedicamentos -->
+    <link href="/css/PLMMedicamentos.css" rel="stylesheet" />
+    <script src="/js/app-config.js"></script>
+    <script src="/js/navigation.js"></script>
+    <script src="/js/ConectivityClass.js"></script>
+    <script src="/js/CountriesClass.js"></script>
+    <script src="/js/LoaderClass.js"></script>
+    <script src="/js/LocalStorageClass.js"></script>
+    <script src="/js/NavigationClass.js"></script>
+    <script src="/js/OrientationClass.js"></script>
+    <script src="/js/WindowsStorageClass.js"></script>
+    <script src="/js/XMLClass.js"></script>
+    <script src="/js/ClientsServicesClass.js"></script>
+    <script src="/js/InteractionsServicesClass.js"></script>
+    <script src="/js/LogsServicesClass.js"></script>
+    <script src="/js/PharmaServicesClass.js"></script>
+    <script src="/js/RESTServicesClass.js"></script>
+    <script src="/js/PLMMedicamentosVars.js"></script>
+    <script src="/js/PLMMedicamentosObjects.js"></script>
+    <script src="/js/PLMMedicamentos.js"></script>
+</head>
+<body role="application" class="win-type-body">
+    <div id="root" data-win-control="WinJS.UI.SplitView" data-win-options="{ paneHidden: App.paneHiddenInitially }">
+        <div>
+            <button type="button" class="splitViewButton win-button navigation-button"></button>
+            <div class="navigation-header">
+                <h4 class="win-h4">PLM Medicamentos</h4>
+            </div>
+            <hr class="navigation-hr" />
+            <div id="navigationPane" data-win-control="WinJS.UI.HtmlControl" data-win-options="{uri: 'pages/navigation/navigation.html'}"></div>
+        </div>
+
+        <button type="button" class="splitViewButton win-button"></button>
+
+        <div class="content-header">
+            <h3 class="win-h3">PLM Medicamentos</h3>
+        </div>
+
+        <div id="contentWrapper">
+            <div id="contentLoader">
+                <div class="content-loader">
+                    <div class="content-loader-logo">
+                        <img src="../../images/graphicalEnvironment/logo/logo_blue.png" />
+                    </div>
+
+                    <h3 class="win-h3 loader">Cargando...</h3>
+                    <br />
+
+                    <progress class="win-progress"></progress>
+                </div>
+            </div>
+            <div id="contentHost"></div>
+        </div>
+    </div>
+</body>
+</html>

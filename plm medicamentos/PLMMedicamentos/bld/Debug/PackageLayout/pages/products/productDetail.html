@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <!-- WinJS references -->
+    <link rel="stylesheet" href="../../css/ippStyles.css" />
+    <script src="../../js/productDetail.js"></script>
+</head>
+<body>
+    <div class="app-bar-page">
+        <div class="app-bar-page-header">
+            <h3 class="win-h3 products">Buscador de Productos</h3>
+            <h4 class="win-h4">Detalle del Producto</h4>
+        </div>
+        <div class="app-bar-page-content">
+            <br />
+
+            <div class="product-image">
+                <img id="productImage" />
+            </div>
+
+            <div>
+                <p class="product-info">
+                    <b><span id="productName"></span></b><br />
+                    <i><span id="pharmaForm"></span></i>
+                </p>
+
+                <p class="product-substances">
+                    <b>Sustancia(s):</b> <i><span id="activeSubstances"></span></i>
+                </p>
+            </div>
+
+            <div id="productAttributes" class="product-attributes"></div>
+            <br />
+        </div>
+    </div>
+    <div class="app-bar-footer">
+        <div class="win-toolbar favorites-bar" data-win-options="{ placement: 'bottom' }">
+            <button data-win-control="WinJS.UI.Command" data-win-options="{
+                        id: 'getProductFavorite',
+                        type: 'button',
+                        icon: 'favorite'
+                    }"></button>
+        </div>
+    </div>
+</body>
+</html>

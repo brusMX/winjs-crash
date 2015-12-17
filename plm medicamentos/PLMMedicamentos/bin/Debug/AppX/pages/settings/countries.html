@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <!-- WinJS references -->
+    <script src="../../js/countries.js"></script>
+</head>
+<body>
+    <header aria-label="Header content" role="banner">
+        <h3 class="win-h3 settings">Configuraci&oacute;n</h3>
+        <h4 class="win-h4">Pa&iacute;ses</h4>
+    </header>
+    <div class="fragment">
+        <div class="menu-item-holder" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <img class="image" data-win-bind="src: iconImage" />
+                <div>
+                    <div class="submenuText" data-win-bind="innerText: displayName"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menuList" class="menu-list settings"
+             data-win-control="WinJS.UI.ListView"
+             data-win-options="{
+                itemTemplate: select('.menu-item-holder'),
+                selectionMode: WinJS.UI.SelectionMode.single,
+             }"></div>
+    </div>
+</body>
+</html>

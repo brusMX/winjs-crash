@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>healthcareSuppliersCategoryDetailByClient</title>
+
+    <script src="/js/healthcareSuppliersCategoryDetailByClient.js"></script>
+</head>
+<body>
+    <header aria-label="Header content" role="banner">
+        <h3 class="win-h3 healthcare">Gu&iacute;a de Productos y Servicios</h3>
+        <h4 id="categoryParentName" class="win-h4"></h4>
+        <h5 id="categoryName" class="win-h5">Sub-Categorias</h5>
+    </header>
+
+    <div class="fragment">
+        <div id="emptyList" style="display:none;">No se encontraron productos asociados a la secci&oacute;n.</div>
+
+        <div class="productsList" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <p class="textList" data-win-bind="innerText: ProductName"></p>
+                <div class="list-item-arrow"><i></i></div>
+            </div>
+        </div>
+
+        <div id="products" onclick="hideCategory('productsList')">
+            <p class="expandable-menu">Productos<span class="icon-status" id="productsListSpan">-</span></p>
+
+            <div id="productsList" style="height:100% !important;" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', itemTemplate: select('.productsList'), layout: { type: WinJS.UI.ListLayout }}"></div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-3MD2CMB</Machine>
+    <WindowsUser>brmedi</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\app-config-CAD.xml">
+      <PackagePath>app-config-CAD.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\app-config-CHI.xml">
+      <PackagePath>app-config-CHI.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\app-config-COL.xml">
+      <PackagePath>app-config-COL.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\app-config-ECU.xml">
+      <PackagePath>app-config-ECU.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\app-config-MEX.xml">
+      <PackagePath>app-config-MEX.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\app-config-PER.xml">
+      <PackagePath>app-config-PER.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\css\clinicalAnalyzesIPPStyles.css">
+      <PackagePath>css\clinicalAnalyzesIPPStyles.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\css\healthcareSuppliersIPPStyles.css">
+      <PackagePath>css\healthcareSuppliersIPPStyles.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\css\ippStyles.css">
+      <PackagePath>css\ippStyles.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\css\navigation.css">
+      <PackagePath>css\navigation.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\css\PLMMedicamentos.css">
+      <PackagePath>css\PLMMedicamentos.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\logo\logo_blue.png">
+      <PackagePath>images\graphicalEnvironment\logo\logo_blue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\mainmenu\mainmenu_interactions.png">
+      <PackagePath>images\graphicalEnvironment\mainmenu\mainmenu_interactions.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\mainmenu\mainmenu_clinical_analyzes.png">
+      <PackagePath>images\graphicalEnvironment\mainmenu\mainmenu_clinical_analyzes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\mainmenu\mainmenu_favorites.png">
+      <PackagePath>images\graphicalEnvironment\mainmenu\mainmenu_favorites.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\mainmenu\mainmenu_healthcare_suppliers.png">
+      <PackagePath>images\graphicalEnvironment\mainmenu\mainmenu_healthcare_suppliers.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\mainmenu\mainmenu_newsletters.png">
+      <PackagePath>images\graphicalEnvironment\mainmenu\mainmenu_newsletters.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\mainmenu\mainmenu_patient_content.png">
+      <PackagePath>images\graphicalEnvironment\mainmenu\mainmenu_patient_content.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\mainmenu\mainmenu_products.png">
+      <PackagePath>images\graphicalEnvironment\mainmenu\mainmenu_products.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\mainmenu\mainmenu_settings.png">
+      <PackagePath>images\graphicalEnvironment\mainmenu\mainmenu_settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_companiesInvolved.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_companiesInvolved.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_devicesAndEquipments.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_devicesAndEquipments.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_imagingAndRadiology.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_imagingAndRadiology.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_index.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_index.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_kitsAndReagents.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_kitsAndReagents.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_laboratoriesDirectory.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_laboratoriesDirectory.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_laboratoryComputing.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_laboratoryComputing.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_manufacturersAndDistributors.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_manufacturersAndDistributors.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_microbiology.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_microbiology.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_molecularBiology.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_molecularBiology.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_deaci_stripsAndTablets.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_deaci_stripsAndTablets.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_healthcare_brands.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_healthcare_brands.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_healthcare_enterprises.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_healthcare_enterprises.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_healthcare_categories.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_healthcare_categories.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_patient_content_facebook.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_patient_content_facebook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_patient_content_google.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_patient_content_google.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_patient_content_twitter.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_patient_content_twitter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_search_results_indications.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_search_results_indications.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_search_results_laboratories.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_search_results_laboratories.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_search_results_products.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_search_results_products.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_search_results_substances.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_search_results_substances.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_settings_contact.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_settings_contact.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_settings_countries.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_settings_countries.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_settings_credits.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_settings_credits.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_settings_privacy.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_settings_privacy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_settings_profile.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_settings_profile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_settings_suggestions.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_settings_suggestions.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\submenus\submenu_settings_terms.png">
+      <PackagePath>images\graphicalEnvironment\submenus\submenu_settings_terms.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\graphicalEnvironment\logo\logo_white.png">
+      <PackagePath>images\graphicalEnvironment\logo\logo_white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\about.js">
+      <PackagePath>js\about.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\app-config.js">
+      <PackagePath>js\app-config.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesBrandsIndex.js">
+      <PackagePath>js\clinicalAnalyzesBrandsIndex.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesCitiesByState.js">
+      <PackagePath>js\clinicalAnalyzesCitiesByState.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesLaboratoriesDirectory.js">
+      <PackagePath>js\clinicalAnalyzesLaboratoriesDirectory.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\contact.js">
+      <PackagePath>js\contact.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersBrands.js">
+      <PackagePath>js\healthcareSuppliersBrands.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersBrandsMenu.js">
+      <PackagePath>js\healthcareSuppliersBrandsMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersCategories.js">
+      <PackagePath>js\healthcareSuppliersCategories.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersCategoriesByParent.js">
+      <PackagePath>js\healthcareSuppliersCategoriesByParent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersCategoriesMenu.js">
+      <PackagePath>js\healthcareSuppliersCategoriesMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersBrandsByClient.js">
+      <PackagePath>js\healthcareSuppliersBrandsByClient.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersCategoriesByClient.js">
+      <PackagePath>js\healthcareSuppliersCategoriesByClient.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersCategoryDetail.js">
+      <PackagePath>js\healthcareSuppliersCategoryDetail.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersCategoryDetailByClient.js">
+      <PackagePath>js\healthcareSuppliersCategoryDetailByClient.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersClientCategoriesByParent.js">
+      <PackagePath>js\healthcareSuppliersClientCategoriesByParent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersClientDetail.js">
+      <PackagePath>js\healthcareSuppliersClientDetail.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersClients.js">
+      <PackagePath>js\healthcareSuppliersClients.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersClientsByBrand.js">
+      <PackagePath>js\healthcareSuppliersClientsByBrand.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersClientsMenu.js">
+      <PackagePath>js\healthcareSuppliersClientsMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\patientContentMenu.js">
+      <PackagePath>js\patientContentMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersMenu.js">
+      <PackagePath>js\healthcareSuppliersMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesMenu.js">
+      <PackagePath>js\clinicalAnalyzesMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesCompaniesByBrand.js">
+      <PackagePath>js\clinicalAnalyzesCompaniesByBrand.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesCompaniesByCity.js">
+      <PackagePath>js\clinicalAnalyzesCompaniesByCity.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesCompanyDetail.js">
+      <PackagePath>js\clinicalAnalyzesCompanyDetail.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesCompanyProducts.js">
+      <PackagePath>js\clinicalAnalyzesCompanyProducts.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\CountriesClass.js">
+      <PackagePath>js\CountriesClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesDevicesAndEquipments.js">
+      <PackagePath>js\clinicalAnalyzesDevicesAndEquipments.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesGenericsIndex.js">
+      <PackagePath>js\clinicalAnalyzesGenericsIndex.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersProductContents.js">
+      <PackagePath>js\healthcareSuppliersProductContents.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersProducts.js">
+      <PackagePath>js\healthcareSuppliersProducts.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\healthcareSuppliersSearchEngine.js">
+      <PackagePath>js\healthcareSuppliersSearchEngine.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesImagingAndRadiology.js">
+      <PackagePath>js\clinicalAnalyzesImagingAndRadiology.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesImagingAndRadiologyIndex.js">
+      <PackagePath>js\clinicalAnalyzesImagingAndRadiologyIndex.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesIndex.js">
+      <PackagePath>js\clinicalAnalyzesIndex.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesKitsAndReagents.js">
+      <PackagePath>js\clinicalAnalyzesKitsAndReagents.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesLaboratoryComputing.js">
+      <PackagePath>js\clinicalAnalyzesLaboratoryComputing.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\indications.js">
+      <PackagePath>js\indications.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\interactionsResults.js">
+      <PackagePath>js\interactionsResults.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\interactions.js">
+      <PackagePath>js\interactions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\interactionsIndications.js">
+      <PackagePath>js\interactionsIndications.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\interactionsLabs.js">
+      <PackagePath>js\interactionsLabs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\interactionsProducts.js">
+      <PackagePath>js\interactionsProducts.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\interactionsSearchEngine.js">
+      <PackagePath>js\interactionsSearchEngine.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\InteractionsServicesClass.js">
+      <PackagePath>js\InteractionsServicesClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\interactionsSubstances.js">
+      <PackagePath>js\interactionsSubstances.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\labs.js">
+      <PackagePath>js\labs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\LogsServicesClass.js">
+      <PackagePath>js\LogsServicesClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\OrientationClass.js">
+      <PackagePath>js\OrientationClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\LoaderClass.js">
+      <PackagePath>js\LoaderClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\ClientsServicesClass.js">
+      <PackagePath>js\ClientsServicesClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\ConectivityClass.js">
+      <PackagePath>js\ConectivityClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\LocalStorageClass.js">
+      <PackagePath>js\LocalStorageClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesManufacturersAndDistributors.js">
+      <PackagePath>js\clinicalAnalyzesManufacturersAndDistributors.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesMicrobiology.js">
+      <PackagePath>js\clinicalAnalyzesMicrobiology.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesMolecularBiology.js">
+      <PackagePath>js\clinicalAnalyzesMolecularBiology.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesParticipatingCompanies.js">
+      <PackagePath>js\clinicalAnalyzesParticipatingCompanies.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\PharmaServicesClass.js">
+      <PackagePath>js\PharmaServicesClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesProductContent.js">
+      <PackagePath>js\clinicalAnalyzesProductContent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesProductsBySection.js">
+      <PackagePath>js\clinicalAnalyzesProductsBySection.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\countries.js">
+      <PackagePath>js\countries.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\error.js">
+      <PackagePath>js\error.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\newsletters.js">
+      <PackagePath>js\newsletters.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\productDetail.js">
+      <PackagePath>js\productDetail.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\favorites.js">
+      <PackagePath>js\favorites.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\products.js">
+      <PackagePath>js\products.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\settingsMenu.js">
+      <PackagePath>js\settingsMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\searchEngine.js">
+      <PackagePath>js\searchEngine.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\navigation.js">
+      <PackagePath>js\navigation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\NavigationClass.js">
+      <PackagePath>js\NavigationClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\PLMMedicamentosVars.js">
+      <PackagePath>js\PLMMedicamentosVars.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\profile.js">
+      <PackagePath>js\profile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\register.js">
+      <PackagePath>js\register.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\RESTServicesClass.js">
+      <PackagePath>js\RESTServicesClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\PLMMedicamentosObjects.js">
+      <PackagePath>js\PLMMedicamentosObjects.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesSectionsByParent.js">
+      <PackagePath>js\clinicalAnalyzesSectionsByParent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesStripsAndTablets.js">
+      <PackagePath>js\clinicalAnalyzesStripsAndTablets.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\clinicalAnalyzesTrademarkIndex.js">
+      <PackagePath>js\clinicalAnalyzesTrademarkIndex.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\substances.js">
+      <PackagePath>js\substances.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\suggestions.js">
+      <PackagePath>js\suggestions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\WindowsStorageClass - Copia.js">
+      <PackagePath>js\WindowsStorageClass - Copia.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\WindowsStorageClass.js">
+      <PackagePath>js\WindowsStorageClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\XMLClass.js">
+      <PackagePath>js\XMLClass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\js\PLMMedicamentos.js">
+      <PackagePath>js\PLMMedicamentos.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesBrandsIndex.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesBrandsIndex.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesCitiesByState.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesCitiesByState.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesLaboratoriesDirectory.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesLaboratoriesDirectory.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesMenu.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesMenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesCompaniesByBrand.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesCompaniesByBrand.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesCompaniesByCity.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesCompaniesByCity.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesCompanyDetail.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesCompanyDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesCompanyProducts.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesCompanyProducts.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesDevicesAndEquipments.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesDevicesAndEquipments.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesGenericsIndex.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesGenericsIndex.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesImagingAndRadiology.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesImagingAndRadiology.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesImagingAndRadiologyIndex.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesImagingAndRadiologyIndex.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesIndex.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesIndex.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesKitsAndReagents.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesKitsAndReagents.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesLaboratoryComputing.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesLaboratoryComputing.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesManufacturersAndDistributors.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesManufacturersAndDistributors.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesMicrobiology.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesMicrobiology.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesMolecularBiology.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesMolecularBiology.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesParticipatingCompanies.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesParticipatingCompanies.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesProductContent.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesProductContent.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesProductsBySection.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesProductsBySection.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesSectionsByParent.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesSectionsByParent.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesStripsAndTablets.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesStripsAndTablets.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\clinicalAnalyzes\clinicalAnalyzesTrademarkIndex.html">
+      <PackagePath>pages\clinicalAnalyzes\clinicalAnalyzesTrademarkIndex.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\error\error.html">
+      <PackagePath>pages\error\error.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\favorites\favorites.html">
+      <PackagePath>pages\favorites\favorites.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersBrands.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersBrands.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersBrandsMenu.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersBrandsMenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersCategories.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersCategories.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersCategoriesByParent.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersCategoriesByParent.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersCategoriesMenu.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersCategoriesMenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersCategoryDetailByClient.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersCategoryDetailByClient.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersClients.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersClients.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersClientsMenu.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersClientsMenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersBrandsByClient.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersBrandsByClient.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersCategoriesByClient.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersCategoriesByClient.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersCategoryDetail.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersCategoryDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersClientCategoriesByParent.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersClientCategoriesByParent.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersClientDetail.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersClientDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersClientsByBrand.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersClientsByBrand.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersMenu.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersMenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersProductContents.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersProductContents.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\healthcareSuppliers\healthcareSuppliersProducts.html">
+      <PackagePath>pages\healthcareSuppliers\healthcareSuppliersProducts.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\indications\indications.html">
+      <PackagePath>pages\indications\indications.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\interactions\interactionsResults.html">
+      <PackagePath>pages\interactions\interactionsResults.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\interactions\interactions.html">
+      <PackagePath>pages\interactions\interactions.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\interactions\interactionsIndications.html">
+      <PackagePath>pages\interactions\interactionsIndications.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\interactions\interactionsLabs.html">
+      <PackagePath>pages\interactions\interactionsLabs.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\interactions\interactionsProducts.html">
+      <PackagePath>pages\interactions\interactionsProducts.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\interactions\interactionsSearchEngine.html">
+      <PackagePath>pages\interactions\interactionsSearchEngine.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\interactions\interactionsSubstances.html">
+      <PackagePath>pages\interactions\interactionsSubstances.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\labs\labs.html">
+      <PackagePath>pages\labs\labs.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\navigation\navigation.html">
+      <PackagePath>pages\navigation\navigation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\newsletters\newsletters.html">
+      <PackagePath>pages\newsletters\newsletters.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\patientContent\patientContentMenu.html">
+      <PackagePath>pages\patientContent\patientContentMenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\products\productDetail.html">
+      <PackagePath>pages\products\productDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\products\products.html">
+      <PackagePath>pages\products\products.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\products\searchEngine.html">
+      <PackagePath>pages\products\searchEngine.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\settings\contact.html">
+      <PackagePath>pages\settings\contact.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\settings\countries.html">
+      <PackagePath>pages\settings\countries.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\settings\about.html">
+      <PackagePath>pages\settings\about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\settings\settingsMenu.html">
+      <PackagePath>pages\settings\settingsMenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\settings\profile.html">
+      <PackagePath>pages\settings\profile.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\settings\register.html">
+      <PackagePath>pages\settings\register.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\settings\suggestions.html">
+      <PackagePath>pages\settings\suggestions.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\pages\substances\substances.html">
+      <PackagePath>pages\substances\substances.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\PLMMedicamentos.html">
+      <PackagePath>PLMMedicamentos.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

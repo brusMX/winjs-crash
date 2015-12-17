@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <!-- WinJS references -->
+    <script src="../../js/favorites.js"></script>
+</head>
+<body>
+    <header class="Header content" role="banner">
+        <h3 class="win-h3 favorites">Favoritos</h3>
+
+        <div class="header-info">
+            Agregue medicamentos a sus Favoritos desde el Buscador de Productos.
+        </div>
+    </header>
+    <div class="fragment">
+        <div class="list-item-holder" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <p class="textList">
+                    <span data-win-bind="innerText: Brand"></span><br />
+                    <i><span data-win-bind="innerText: PharmaForm"></span></i>
+                </p>
+
+                <div class="list-item-arrow"><i></i></div>
+            </div>
+        </div>
+
+        <div id="resultsList" class="products-list"
+             data-win-control="WinJS.UI.ListView"
+             data-win-options="{
+                itemTemplate: select('.list-item-holder'),
+                selectionMode: WinJS.UI.SelectionMode.single,
+                layout: { type: WinJS.UI.ListLayout },
+             }"></div>
+    </div>
+</body>
+</html>

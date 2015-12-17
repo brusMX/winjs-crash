@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>companyProducts</title>
+
+    <script src="/js/clinicalAnalyzesCompanyProducts.js"></script>
+</head>
+<body>
+    <header aria-label="Header content" role="banner">
+        <h3 class="win-h3 deaci">Buscador de an&aacute;lisis Clínicos e Imageneolog&iacute;a</h3>
+        <h4 id="companyName" class="win-h4"></h4>
+        <h5 class="win-h5">Productos</h5>
+    </header>
+
+    <div class="fragment">
+
+        <div class="companyProducts" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <p class="textList" data-win-bind="innerText: ProductName"></p>
+                <div class="list-item-arrow"><i></i></div>
+            </div>
+        </div>
+        <div id="companyProducts" class="listBox" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', itemTemplate: select('.companyProducts'), layout: { type: WinJS.UI.ListLayout }}"></div>
+
+    </div>
+</body>
+</html>

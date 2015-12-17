@@ -1,0 +1,16 @@
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\ARM\Debug\ReverseMap\resources.pri
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\ARM\Debug\AppxManifest.xml
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\ARM\Debug\PLMMedicamentos.build.appxrecipe
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\ResourceHandlingTask.state
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\priconfig.xml
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\priconfig.xml.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\layout.resfiles
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\layout.resfiles.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\resources.resfiles
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\resources.resfiles.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\pri.resfiles
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\pri.resfiles.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\qualifiers.txt
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\ARM\Debug\ProjectArchitectures.txt

@@ -1,0 +1,80 @@
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bin\Debug\ReverseMap\resources.pri
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bin\Debug\AppxManifest.xml
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bin\Debug\PLMMedicamentos.build.appxrecipe
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\ResourceHandlingTask.state
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\priconfig.xml
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\priconfig.xml.intermediate
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\layout.resfiles
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\layout.resfiles.intermediate
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\resources.resfiles
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\resources.resfiles.intermediate
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\pri.resfiles
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\pri.resfiles.intermediate
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Mericia\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\ProjectArchitectures.txt
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bin\Debug\ReverseMap\resources.pri
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bin\Debug\AppxManifest.xml
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bin\Debug\PLMMedicamentos.build.appxrecipe
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\ResourceHandlingTask.state
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\priconfig.xml
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\priconfig.xml.intermediate
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\layout.resfiles
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\layout.resfiles.intermediate
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\resources.resfiles
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\resources.resfiles.intermediate
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\pri.resfiles
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\pri.resfiles.intermediate
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Angelica Coss\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\ProjectArchitectures.txt
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bin\Debug\ReverseMap\resources.pri
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bin\Debug\AppxManifest.xml
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bin\Debug\PLMMedicamentos.build.appxrecipe
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\ResourceHandlingTask.state
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\priconfig.xml
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\priconfig.xml.intermediate
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\layout.resfiles
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\layout.resfiles.intermediate
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\resources.resfiles
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\resources.resfiles.intermediate
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\pri.resfiles
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\pri.resfiles.intermediate
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt.intermediate
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\miguel.lima\Documents\Visual Studio 2015\Projects\PLMMedicamentos\PLMMedicamentos\bld\Debug\ProjectArchitectures.txt
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bin\Debug\ReverseMap\resources.pri
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bin\Debug\AppxManifest.xml
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bin\Debug\PLMMedicamentos.build.appxrecipe
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\ResourceHandlingTask.state
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\priconfig.xml
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\priconfig.xml.intermediate
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\layout.resfiles
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\layout.resfiles.intermediate
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\resources.resfiles
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\resources.resfiles.intermediate
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\pri.resfiles
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\pri.resfiles.intermediate
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt.intermediate
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Repositories\WinJS\PLMMedicamentos\PLMMedicamentos\bld\Debug\ProjectArchitectures.txt
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\Debug\AppxManifest.xml
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\Debug\PLMMedicamentos.build.appxrecipe
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\ResourceHandlingTask.state
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\priconfig.xml
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\priconfig.xml.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\layout.resfiles
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\layout.resfiles.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\resources.resfiles
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\resources.resfiles.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\pri.resfiles
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\pri.resfiles.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\qualifiers.txt.intermediate
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\ProjectArchitectures.txt
+C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\Debug\ReverseMap\resources.pri

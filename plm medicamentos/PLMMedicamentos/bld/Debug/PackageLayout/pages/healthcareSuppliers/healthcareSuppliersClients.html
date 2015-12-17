@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>healthcareSuppliersClients</title>
+
+    <script src="/js/healthcareSuppliersClients.js"></script>
+</head>
+<body>
+    <header aria-label="Header content" role="banner">
+        <h3 class="win-h3 healthcare">Gu&iacute;a de Productos y Servicios</h3>
+        <h4 class="win-h4">Empresas</h4>
+    </header>
+
+    <div class="fragment">
+        <div id="emptyList" style="display:none;">No se encontraron categorias asociadas a la secci&oacute;n.</div>
+
+        <div class="clientsList" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <p class="textList" data-win-bind="innerText: CompanyName"></p>
+                <div class="list-item-arrow"><i></i></div>
+            </div>
+        </div>
+        <div id="clientsList" class="listBox" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', itemTemplate: select('.clientsList'), layout: { type: WinJS.UI.ListLayout }}"></div>
+
+    </div>
+</body>
+</html>

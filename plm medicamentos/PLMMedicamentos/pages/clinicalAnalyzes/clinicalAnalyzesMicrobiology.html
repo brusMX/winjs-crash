@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>microbiology</title>
+
+    <script src="/js/clinicalAnalyzesMicrobiology.js"></script>
+</head>
+<body>
+    <header aria-label="Header content" role="banner">
+        <h3 class="win-h3 deaci">Buscador de an&aacute;lisis Clínicos e Imageneolog&iacute;a</h3>
+        <h4 class="win-h4">Microbiolog&iacute;a</h4>
+        <h5 class="win-h5">Secciones</h5>
+    </header>
+
+    <div class="fragment">
+        <div id="emptyList" style="display:none;">No se encontraron secciones asociadas a esta categoria.</div>
+
+        <div class="sections" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <p class="textList" data-win-bind="innerText: Description"></p>
+                <div class="list-item-arrow"><i></i></div>
+            </div>
+        </div>
+        <div id="sections" class="listBox" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', itemTemplate: select('.sections'), layout: { type: WinJS.UI.ListLayout }}"></div>
+
+    </div>
+</body>
+</html>

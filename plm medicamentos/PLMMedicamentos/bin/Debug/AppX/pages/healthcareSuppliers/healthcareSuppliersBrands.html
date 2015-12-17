@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>healthcareSuppliersBrands</title>
+
+    <script src="/js/healthcareSuppliersBrands.js"></script>
+</head>
+<body>
+    <header aria-label="Header content" role="banner">
+        <h3 class="win-h3 healthcare">Gu&iacute;a de Productos y Servicios</h3>
+        <h4 id="companyName" class="win-h4"></h4>
+        <h5 class="win-h5">Marcas</h5>
+    </header>
+
+    <div class="fragment">
+        <div id="emptyList" style="display:none;">No se encontraron los datos de las marcas.</div>
+
+        <div class="brandsList" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <div class="content-list">
+                    <img src="#" class="smallList-Image" data-win-bind="src: imageSource" />
+                    <p class="list-image-text" data-win-bind="innerText: BrandName"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="brandsList" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', itemTemplate: select('.brandsList'), layout: { type: WinJS.UI.ListLayout }}"></div>
+
+    </div>
+</body>
+</html>

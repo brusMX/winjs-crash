@@ -1,0 +1,648 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+			div.story {}
+			p-_-Foto_espacio
+{
+ text-align:center;	
+}
+span.alpha_symbol-new
+{
+	font-size:16px;
+}
+			/*body
+			{
+				background-color:#ffffff;
+				margin: 10px 10px 5px 10px;
+			}	*/	
+			p.Intro
+			{
+				font-size:16pt;
+				font-family:arial, helvetica;
+				font-weight: bold;				
+				color: #003366;
+				text-transform:uppercase;
+			}
+			p.t1-estado 
+			{
+			    font-size:16pt;
+				font-family:arial, helvetica;
+				font-weight: bold;
+				font-weight: bold;
+				color: #003366;
+					}
+					
+					span.cursiva-new
+					{
+					    font-style:italic
+					 }
+			p.t10-3as-producto 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align: center;
+			    font-weight:bold;	
+			}
+			p.t11-3as-descripci-n 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align: center;
+			    font-weight:bold;
+			}
+			p.t12-sucursales 
+			{
+				color: #993300;
+				font-weight: bold;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 14px;
+				
+	       }
+			p.t2-ciudad 
+			{
+				font-size:14pt;
+				font-family:arial, helvetica;
+				font-weight: bold;
+				font-weight: bold;
+				color: #003366;
+				
+			}
+			p.t3-empresa 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				color: #993300;
+				font-weight:bold;
+				
+				
+			}
+			p.t4-direcci-n 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				color: #00688B;
+				font-weight:bold;
+				
+			}
+			p.T-6-Direccion-3as-nuevo
+			{
+				font-family: Calibri;
+				font-size: 14px;
+				color: #5C3317;
+				font-weight:bold;
+				text-align:left;
+				
+			}
+			
+			p.T-5-Direccion-3as-Contratante-nuevo
+			{
+				font-family: Calibri;
+				font-size: 14px;
+				color: #5C3317;
+				font-weight:bold;
+				text-align:left;
+				
+			}
+			
+			td._as_Productos 
+			{
+				border: 1px solid black;
+				
+			}
+			td._as_Descripcion 
+			{
+				border: 1px solid black;
+			}
+			
+			p.t5-titulo-productos 
+			{
+				font-size:11pt;
+				font-family:arial, helvetica;
+				font-weight: bold;
+				text-align:center;
+				color: #003399;
+				text-transform:uppercase;
+			}
+			
+			p.S-01-Titulo-Introduccion-new
+				{
+			    font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight:bold;
+				}
+			
+			p._-2-Titulo-Introduccion
+			{
+			    font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight:bold;
+				}
+				
+			p.T-7-Titulo-Prod-Descripcion-nuevo
+            {
+	            font-family: Verdana, Arial, Helvetica, sans-serif;
+	            font-size: 13px;				
+	            font-weight:bold;
+	            text-align:center;
+            }
+			p.T-9-Titulo-Productos-nuevo
+			{
+				font-size:11pt;
+				font-family:arial, helvetica;
+				font-weight: bold;
+				text-align:center;
+				color: #003399;
+				text-transform:uppercase;
+			}
+			
+			p.S-4-Titulo-Producto-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 24px;
+				color: #236B8E;
+				text-transform:uppercase;
+	        }
+	        
+	        p.S-4-T-tulo-Producto-nuevo
+	        {
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 24px;
+				color: #236B8E;
+				text-transform:uppercase;
+	        }
+	        
+	        p.T-10-3as-Producto-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align: center;
+			    font-weight:bold;
+			    	
+			}
+			
+			p.T-11-Descripcion-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 13px;
+				text-align: justify;
+			    /*font-weight:bold;*/
+			}
+	        p.T-3-Empresa-3as-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 24px;
+				color: #236B8E;
+				text-transform:uppercase;
+	        }
+			p.t6-sub-titulo-cursivo 
+			{
+				font-size:11pt;
+				font-family:arial, helvetica;
+				font-weight: bold;
+				text-align:center;
+				color: #003399;
+				text-transform:uppercase;
+				font-style:italic;
+			}
+			p.t7-sub-titulo-productos 
+			{
+				font-size:11pt;
+				font-family:arial, helvetica;
+				font-weight: bold;
+				text-align:center;
+				color: #003399;
+				text-transform:uppercase;
+			}
+			p.t8-cod-prod-des {}
+			p.x1-2-titulo-introduccion 
+			{
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				text-transform:uppercase;
+				font-weight:bold;	
+				color:#8E2323;
+				text-align:center;
+			}
+			p.x1-sub-secc-1-linea 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 14px;
+				color: #0066CC;
+				text-transform:uppercase;
+			}
+			
+			p.x1-sub-secc-2-lineas 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 14px;
+				color: #0066CC;
+				text-transform:uppercase;
+			}
+			
+			p.x1-sub-secc-3-lineas 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 14px;
+				color: #0066CC;
+				text-transform:uppercase;
+			}
+			p.x10-tabla-titulo 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+	            font-size: 12px;
+	                      
+            }
+			p.x11-tabla-franja-gris 
+			{
+				
+			}
+			p.x12-tabla-interior-izquierda 
+			{
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 12px;
+			}
+			
+			p.x14-referencias 
+			{
+			    font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight:bold;
+				
+	          }
+	          
+	        p.S-16-Referencias-nuevo
+	        {
+			    font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px; 
+				font-weight:bold;
+	          }
+			p.x15-registro-productos 
+			{
+				
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+			}
+			p.x16-pie-empresa 
+			{
+		        font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 14px;
+				color: #993300;
+				font-weight: bold;
+			}
+			p.S-14-Pie-Empresa-nuevo
+			{
+		        font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 14px;
+				color: #993300;
+				font-weight: bold;
+				text-transform:uppercase;
+				text-align:center;
+			}
+			
+			p.S-15-Pie-Datos-Empresa-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 11px;				
+				font-weight:bold;
+				text-align:center;
+			}
+		    
+		    p.x17-pie-datos-empresa 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 11px;				
+				font-weight:bold;
+			}
+			p.S-18-Pie-Logo-Centrado-nuevo 
+			{
+			    text-align:center;
+			    
+			    }
+			p.x2-subsub-secc 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 14px;
+				color: #0066CC;
+				text-transform:uppercase;
+			}
+			p.x3-nombre-producto 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 24px;
+				color: #236B8E;
+				text-transform:uppercase;
+	         }
+			p.x4-base-de-propaganda 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight: bold;
+				color: #CC6600;
+			
+				}
+			p.S-5-Base-de-Propaganda-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 14px;
+				font-weight: bold;
+				color: #CC6600;
+			
+				}
+			p._-Base-de-Propaganda
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight: bold;
+				color: #CC6600;
+			
+				}
+			
+			p.x5-foto-espacio 
+			{
+			    text-align:center;
+			    
+			}
+			p.x7-parrafo-normal 
+			{
+			 font-size:12px;
+			 font-family:Verdana, Arial, Helvetica, sans-serif;
+			 text-align:justify;	
+			}
+			p.S-7-Parrafo-Normal-nuevo
+			{
+			 font-size:12px;
+			 font-family:Verdana, Arial, Helvetica, sans-serif;
+			 text-align:justify;	
+			}
+			p.x6-parrafo-normal 
+			{
+			 font-size:9pt;
+			 font-family:arial,helvetica;
+			 text-align:justify;	
+			}
+			p.x8-bandos 	
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-indent: 12px;
+			}
+			
+			p.S-10-a-Bandos-3
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-indent: 12px;
+			}
+			p.S-10-Bullets-2-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-indent: 20px;
+			}
+			p.S-9-Bullets-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-indent: 12px;
+			}
+			p._--Parrafo-Negritas-ALTAS-Normal
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight:bold;
+				text-transform:uppercase;
+			}
+			
+			p.x9-bandos-2 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-indent: 12px;
+				}
+			span.bold 
+			{
+				font-weight:bold;
+			}
+			span.Bold-new
+			{
+				font-weight:bold;
+			}
+			span.bold-cursiva 
+			{
+			    font-weight: bold; 	
+				font-style:italic;
+			}
+			span.Palomita-new
+			{
+			    font-family:Wingdings;
+			}
+			span.Bullet-Tabla
+			{
+			    font-family:Wingdings;
+			}
+			span.cursiva 
+			{
+				font-style:italic;
+			}
+			span.subindice 
+			{
+				vertical-align:sub;	
+			}
+			span.superindice 
+			{
+				vertical-align:super;
+	             font-size:12px;
+		    }
+			span.symbol {}
+			p.x11-tabla-franja-gris 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align:center;				
+				font-weight:bold;				
+				
+			}
+			p.x10-tabla-titulo 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align:center;				
+				font-weight:bold;				
+				
+			}
+			p.S-11-Tabla-Titulo-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align:left;				
+				font-weight:bold;				
+				
+			}
+			p.s-12-tabla-titulo-franja-nuevo-spinreact
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align:center;				
+				font-weight:bold;				
+				
+			}
+			
+			p.Subtitulo-en-Texto-Editorial
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+			    font-weight:bold;
+			    font-size: 12px;
+			}
+			
+			
+			p.S-12-Tabla-Titulo-Franja-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align:center;				
+				font-weight:bold;				
+				
+			}
+			
+			p.x13-tabla-interior-centrado 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 11px;
+				text-align: center;
+				
+			}
+			
+			table.Tabla-3as 
+			{
+				border: 1px solid black;
+			}			
+			table.Tabla-en-Producto 
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align: center;
+				 border: 1px solid black;
+		    }
+			td.Celdas 
+			{
+				border: 1px solid black;
+			}
+			td.celdas-coloreadas 
+			{
+			background-color:#545454 	
+			}
+			td.Pantalla 
+			{
+				background-color:Silver;
+				border:1px;
+				font-weight:bold;
+			}
+
+			td.x3as-cabeza {}
+			td.x3as-descripcion {}
+			td.x3as-productos {}
+			
+			table
+			{
+				border: 0px solid black;
+			}
+
+			td
+			{
+				border: 0px solid black;
+			}
+			table.transparente 
+			{
+				border:0px;
+			}
+			table.tabla-producto-n 
+			{
+				border:1px;
+			}
+			table.tabla-en-prod-transparente
+			{
+				border:0px;
+			}			
+			table.tabla-en-prod-transparente td
+			{
+				border:0px;
+			}
+			table.tabla-producto-n td
+			{
+				border:0px;
+			}			 
+			table.transparente td
+			{
+				border:0px;
+			}
+			
+			td._a-LOGO-derecha
+			{
+				text-align:right;
+				width:551px;
+			}
+			td.PRODUCTO-seccion /* PRODUCTO-seccion*/
+			{ 
+				text-align:left;
+				width:646px;
+			}
+			td.PRODUCTO-secci�n /* PRODUCTO-seccion*/
+			{ 
+				text-align:left;
+				width:646px;
+			}
+			p.S-6-Foto-Espacio-nuevo
+			{
+				text-align:center;
+			}
+			p.S-20-Registro-Productos-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight:bold;
+				text-align:center;
+			}
+			
+				p.S-20-Registro-Productos
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight:bold;
+			}
+			
+			span.Superindice-new
+			{
+				vertical-align:super;
+			}
+			p.S-13-Tabla-Iinterior-Izq-nuevo
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align:left;
+			}
+				p.S-13-Tabla-Iinterior-Centrado-nuevo
+				{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				text-align:center;
+				}
+				p.ALINEACI-N-DER-logo
+				{
+					text-align:right;
+				}
+			
+			
+.cr_negritas img {
+    max-width: 100%;
+}
+.pf_foto_centrada img {
+    max-width: 100%;
+}

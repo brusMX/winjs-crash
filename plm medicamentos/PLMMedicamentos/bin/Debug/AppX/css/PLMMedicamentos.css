@@ -1,0 +1,1293 @@
+﻿body {
+    -ms-user-select:none;
+}
+
+/* WinJS Overwritten Styles */
+
+
+/* Don't know if it'll remain yet! */
+/*.win-flyout.light {
+    background-color: #ffffff !important;
+}*/
+
+/* General Styles */
+
+h2.center,
+div.center {
+    text-align: center;
+}
+
+/* SplitView Elements */
+
+button.splitViewButton {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    min-height: 0;
+    min-width: 0;
+    padding: 0;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+}
+
+    button.splitViewButton:hover {
+        background-color: transparent;
+    }
+
+    button.splitViewButton:active {
+        background-color: transparent;
+    }
+
+    button.splitViewButton:after {
+        color: #ffffff;
+        position: relative;
+        font-size: 24px;
+        font-family: 'Segoe MDL2 Assets';
+        content: "\E700";
+    }
+
+.win-splitview-pane {
+    display: flex;
+    flex-direction: column;
+}
+
+    .win-splitview-pane #navigationPane {
+        flex-grow: 1;
+    }
+
+.win-splitview-content .splitViewButton {
+    display: none;
+}
+
+.hiding .win-splitview-content .splitViewButton,
+.win-splitview-pane-closed .win-splitview-content .splitViewButton {
+    display: block;
+}
+
+/* Navigation Pane */
+
+div.navigation-header {
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding-left: 48px;
+}
+
+div.navigation-header > h4 {
+    color: #575756;
+    line-height: 48px;
+    margin-left: 5px;
+}
+
+#navigationPane {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+button.splitViewButton.navigation-button:after {
+    color: #575756;
+}
+
+hr.navigation-hr {
+    background-image: linear-gradient(to right, rgba(87, 87, 86, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+hr.navigation-hr.hidden {
+    display: none;
+}
+
+div.navigation-item {
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+}
+
+div.navigation-item,
+div.navigation-item > div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+div.navigation-item > div.navigation-icon {
+    float: left;
+    width: 48px;
+    height: 48px;
+}
+
+div.navigation-item > div.navigation-text {
+    float: left;
+    width: calc(100% - 48px - 30px);
+    height: 100%;
+    line-height: 48px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+div.navigation-item > div.navigation-icon > img {
+    width: 30px;
+    height: 30px;
+    padding: 9px;
+}
+
+div.navigation-item > div.navigation-text > span {
+    display: inline-block;
+    color: #575756;
+    font-size: small;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+/* Content */
+
+div.content-header {
+    width: 100%;
+    height: 48px;
+    background-color: #023168;
+    padding-left: 48px;
+}
+
+div.content-header > h3 {
+    color: #ffffff;
+    line-height: 48px;
+    margin-left: 5px;
+}
+
+#contentWrapper {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 48px);
+}
+
+#contentHost {
+    margin: 10px;
+    height: calc(100% - 10px);
+    margin-bottom: 0px;
+}
+
+    #contentHost {
+        /*font: 20pt/24pt "Segoe UI";
+        font-weight: 300;
+        white-space: normal;*/
+    }
+
+    #contentHost {
+        font: 11pt/15pt "Segoe UI";
+        font-weight: 300;
+         white-space: normal;
+    }
+
+div.fragment {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Register & Profile */
+
+div.profile-logo {
+    display: none;
+}
+
+.profile-fragment .win-textbox,
+.profile-fragment .win-dropdown {
+    width: 85%;
+}
+
+.profile-fragment .win-dropdown {
+    min-width: 85%;
+    max-width: 85%;
+}
+
+.profile-fragment .win-textbox,
+.profile-fragment .win-dropdown,
+.profile-fragment .win-button {
+    background-color: #dddddd;
+    border-color: transparent;
+}
+
+.profile-fragment .win-textbox:active,
+.profile-fragment .win-textbox:focus,
+.profile-fragment .win-dropdown:active,
+.profile-fragment .win-dropdown:focus {
+    background-color: #dddddd;
+    border-color: #000000;
+}
+
+.profile-fragment .win-dropdown:focus::-ms-value {
+    color: #000000;
+    background-color: #dddddd;
+}
+
+.profile-fragment .win-dropdown option:checked {
+    background-color: #023168;
+}
+
+/* Register & Profile Blue Styles */
+
+body.ui-dark {
+    color: #ffffff;
+    background-color: #023168 !important;
+}
+
+body.ui-dark div.profile-logo {
+    display: block;
+    width: 100%;
+    max-height: 50%;
+    text-align: center;
+}
+
+body.ui-dark div.profile-logo > img {
+    width: auto;
+    height: auto;
+    max-width: 75%;
+    max-height: 65%;
+    padding-top: 11.5%;
+    margin: 0 auto;
+}
+
+body.ui-dark button.splitViewButton {
+    display: none !important;
+}
+
+body.ui-dark div.content-header {
+    display: none !important;
+}
+
+body.ui-dark #contentWrapper {
+    height: 100% !important;
+}
+
+body.ui-dark .win-button {
+    background-color: #ffffff;
+    border-color: transparent;
+}
+
+body.ui-dark .profile-fragment .win-link {
+    color: #ffffff;
+}
+
+body.ui-dark .profile-fragment .win-textbox,
+body.ui-dark .profile-fragment .win-dropdown,
+body.ui-dark .profile-fragment .win-button {
+    background-color: #ffffff;
+    border-color: transparent;
+}
+
+body.ui-dark .profile-fragment .win-textbox:active,
+body.ui-dark .profile-fragment .win-textbox:focus,
+body.ui-dark .profile-fragment .win-dropdown:active,
+body.ui-dark .profile-fragment .win-dropdown:focus {
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+body.ui-dark .profile-fragment .win-dropdown:focus::-ms-value {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+body.ui-dark .profile-fragment .win-checkbox {
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body.ui-dark .profile-fragment .win-checkbox::-ms-check {
+    border-color: #ffffff;
+}
+
+body.ui-dark .profile-fragment .win-checkbox:active::-ms-check {
+    background-color: transparent;
+}
+
+body.ui-dark .profile-fragment .win-checkbox:checked::-ms-check {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* Loader */
+
+div#contentLoader {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    overflow: hidden;
+    z-index: 1001;
+}
+
+h3.loader,
+.content-loader progress {
+    color: #023168;
+}
+
+.content-loader {
+    width: 100%;
+    height: auto;
+    margin-top: 50%;
+}
+
+    .content-loader > h3 {
+        text-align: center;
+    }
+
+    .content-loader .content-loader-logo {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+        .content-loader .content-loader-logo > img {
+            width: auto;
+            height: auto;
+            max-width: 70%;
+        }
+
+    .content-loader progress {
+        width: 100%;
+        height: 48px;
+    }
+
+    /*Template de listview */
+.templ {
+    margin-top: 0px;
+    width: 100%;
+}
+
+    .templ .image {
+        width: 80px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+    
+    .templ .full-image {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+    /*Para submenus*/
+    .templ .submenuText {
+        display:inline-block;
+        color: white;
+        max-height: 40px;
+        position: absolute;
+        bottom: 4px;
+        left:8px;
+        font-size: 13px;
+    }
+
+    .templ .textList{
+        height: 40px;
+        font-size: 16px;
+        overflow: hidden;
+        margin: 5px 5px 5px 15px;
+        width: calc(94% - 40px);
+
+
+        display:inline-block;
+    }
+
+    .templ > div.menu-item-count {
+        width: 100%;
+        height: 80px;
+        font-size: 74px;
+        line-height: 80px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .templ .letters{
+        text-align: center !important;
+        overflow: visible !important;
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    
+    .templ .content-list {
+        height: 50px !important;
+        overflow: hidden;
+    }
+
+    .templ .content-list .smallList-Image{
+        display:inline-block;
+        max-width: 90px;
+        max-height: 46px;
+        min-height: 20px;
+        margin: 2px 5px 2px 5px;
+        float: left;
+    }
+
+        .templ .content-list .list-image-text {
+            display: inline-block;
+                font-size: 16px;
+                overflow: hidden;
+                width: calc(100% - 110px);
+                margin-top: 5px;
+                margin-left: 10px;
+                float:right;
+        }
+
+    
+    .templ > div > div.menu-item-image {
+                width: 40px;
+                margin-left:85px;
+            }
+    .templ > div > div.menu-item-image > img {
+                    width: calc(100% - 5px);
+                    height: calc(100% - 5px);
+                    max-width: calc(100% - 5px);
+                    max-height: calc(100% - 5px);
+                }
+    
+    .templ .list-item-arrow {
+        display:inline-block;
+        float: right;
+        margin-right: 8px;
+        width: 13px;
+        height: 50px !important;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: left;
+    }
+
+        .templ .list-item-arrow > i {
+            display: inline-block;
+            font-style: normal;
+            position: relative;
+            width: 0.4em;
+            height: 0.4em;
+            border-top: 0.2em solid #575756;
+            border-right: 0.2em solid #575756;
+            transform: rotate(45deg);
+        }
+
+    
+    div.empty-list-letters{
+        position: absolute;
+       float: left;
+       width: 88% !important;
+    }
+
+
+    /*Global Style for ListView*/
+    .win-container {
+       height: 50px !important;
+       width: 100% !important;
+       margin-left:0px !important;
+    }
+    .win-itembox {
+       background-color: #DDDDDD !important;
+    }
+    
+    /*Clinical Analizes List Style*/
+    #clinicalList{
+        margin-top: 0px !important;
+        width: 100% !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+    #clinicalList .win-container {
+       width: 125px !important;
+       height: 120px !important;
+       position: relative !important;
+       float: left !important;
+       right: 0px !important;
+       margin-right: 0px !important;
+       margin-left: 5px !important;
+    }
+
+    #clinicalList .win-item {
+        height: 100% !important;
+        background-color: #683C11;
+    }
+    
+    #clinicalList .win-gridlayout.win-surface{
+        margin-left: 0px;
+    }
+    
+    /*healthcareList Style*/
+    #healthcareList{
+        margin-top: 0px !important;
+        width: 100% !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+    #healthcareList .win-container {
+       width: 125px !important;
+       height: 120px !important;
+       position: relative !important;
+       float: left !important;
+       right: 0px !important;
+       margin-right: 0px !important;
+       margin-left: 5px !important;
+    }
+
+    #healthcareList .win-item {
+        height: 100% !important;
+        background-color: #FF8B00;
+    }
+    #healthcareList .win-gridlayout.win-surface{
+        margin-left: 0px;
+    }
+    /*End healthcareList Style*/
+
+    /*lettersIndex List Style*/
+    #lettersIndex {
+       float: right !important;
+       width: 25px !important;
+    }
+    #lettersIndex .win-itembox {
+        background-color: transparent !important;
+    }
+    #lettersIndex .win-container {
+        height: 30px !important;
+    }
+   /*searchHealthcare List Style*/
+        #searchHealthcareList{
+        margin-top: 0px !important;
+        width: 100% !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+    #searchHealthcareList .win-container {
+       width: 125px !important;
+       height: 120px !important;
+       position: relative !important;
+       float: left !important;
+       right: 0px !important;
+       margin-right: 0px !important;
+       margin-left: 5px !important;
+    }
+
+    #searchHealthcareList .win-item {
+        height: 100% !important;
+        background-color: #FF8B00;
+    }
+    #searchHealthcareList .win-gridlayout.win-surface{
+        margin-left: 0px;
+    }
+    /*End searchHealthcare style*/
+
+    /*Patient Content List Style*/
+    #patientContentList{
+        margin-top: 0px !important;
+        width: 100% !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+    #patientContentList .win-container {
+       width: 125px !important;
+       height: 120px !important;
+       position: relative !important;
+       float: left !important;
+       right: 0px !important;
+       margin-right: 0px !important;
+       margin-left: 5px !important;
+    }
+
+    #patientContentList .win-gridlayout.win-surface{
+        margin-left: 0px;
+    }
+
+    /*Lists with a call from a letter*/
+    #trademarkIndex {
+       float: left;
+       width: 91% !important;
+    }
+
+/*    
+h3.deaciTitles {
+    background-color: #7c4d25;
+    width: 95%;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left:5%;
+    font-weight: 200;
+}*/
+
+h3.healthcare {
+    color: #FF8B00;
+}
+h3.deaci {
+    color: #683C11;
+}
+
+p.expandable-menu {
+    background-color: #DDDDDD;
+    height: 30px;
+    padding: 5px 15px;
+    margin: 0px 0px 10px 0px;
+    -ms-user-select:none;
+}
+
+    p.expandable-menu > .icon-status{
+        float: right;
+
+    }
+
+.win-h5 {
+    color: #DDDDDD;
+    padding-left: 10px;
+}
+
+.button-margin {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/*
+.productName {
+    margin-top: 0px;
+    text-align: center;
+    color: #7c4d25
+}*/
+.product-image {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.suggestion-textbox{
+    display: block;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.about {
+    color: #023168;
+    font-size: 20px;
+}
+    .about img {
+        max-width: 75%;
+        margin-top: 5px;
+    }
+
+div .div-input-radio {
+    float: left;
+    width: 35px;
+}
+div .div-input-description {
+    height: 44px;
+    width: calc(100% - 35px);
+    margin-bottom: 5px;
+    float: left;
+    background-color: #DDDDDD;
+}
+
+/* Titles */
+
+h3.products,
+h3.favorites,
+h2.settings,
+h3.settings {
+    color: #023168;
+}
+
+h3.interactions {
+    color: #e71123;
+}
+
+body.ui-dark h2.settings {
+    color: #ffffff;
+}
+
+/* Menus */
+
+.menu-list {
+    margin-top: 0px !important;
+    width: 100% !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.menu-list .win-container {
+    width: 125px !important;
+    height: 120px !important;
+    position: relative !important;
+    float: left !important;
+    right: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 5px !important;
+}
+
+.menu-list .win-item {
+    height: 100% !important;
+}
+
+.menu-list .win-item,
+.menu-list.settings .win-item {
+    background-color: #023168;
+}
+
+#resultsList .win-gridlayout.win-surface,
+#menuList .win-gridlayout.win-surface {
+    margin-left: 0px;
+}
+
+/* Numbers Menus */
+
+.numbers-menu {
+    width: 100% !important;
+    margin-top: 0px !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+.numbers-menu .win-container {
+    width: 125px !important;
+    height: 120px !important;
+    float: left !important;
+    position: relative !important;
+    right: 0px !important;
+    margin-left: 5px !important;
+    margin-right: 0px !important;
+}
+
+.numbers-menu .win-item {
+    height: 100% !important;
+}
+
+.numbers-menu.products .win-item {
+    background-color: #023168;
+}
+
+.numbers-menu.interactions .win-item {
+    background-color: #e71123;
+}
+
+.numbers-menu.settings .win-item {
+    background-color: #023168;
+}
+
+/* Search Engine */
+
+div.section-search {
+    width: 100%;
+    height: 35px;
+    background-color: #575756;
+    overflow: hidden;
+}
+
+div.section-search > div {
+    float: left;
+    height: 35px;
+}
+
+div.section-search > div:first-child {
+    width: calc(100% - 35px);
+}
+
+div.section-search > div:last-child {
+    width: 35px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+div.section-search > div > .win-textbox {
+    width: 100%;
+    height: 35px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0;
+    border: 1px solid #575756;
+    margin: 0;
+}
+
+div.section-search > div > .win-textbox::-ms-value {
+    color: #575756;
+    margin-left: 5px;
+}
+
+div.section-search > div > .win-textbox:active,
+div.section-search > div > .win-textbox:focus {
+    background-color: #d8d8c9;
+}
+
+div.section-search > div > .win-textbox:-ms-input-placeholder {
+    color: #00ffff;
+}
+
+div.section-search > div > .win-button {
+    min-width: 35px;
+    width: 35px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #575756;
+}
+
+div.section-search > div > .win-button:active {
+    border-color: transparent;
+}
+
+div.numbers-menu-item {
+    width: 100%;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+    div.numbers-menu-item > div.numbers-menu-item-count {
+        width: 100%;
+        height: 80px;
+        font-size: 70px;
+        line-height: 80px;
+        text-align: center;
+    }
+
+    div.numbers-menu-item > div.numbers-menu-item-title {
+        width: 100%;
+        height: 40px;
+        overflow: hidden;
+    }
+
+        div.numbers-menu-item > div.numbers-menu-item-title > div {
+            float: left;
+            height: 40px;
+        }
+
+            div.numbers-menu-item > div.numbers-menu-item-title > div.numbers-menu-item-text {
+                width: calc(100% - 47.5px);
+                height: 40px;
+                font-size: 15px;
+                line-height: 40px;
+                margin-left: 7.5px;
+            }
+
+            div.numbers-menu-item > div.numbers-menu-item-title > div.numbers-menu-item-image {
+                width: 40px;
+                height: 40px;
+            }
+
+                div.numbers-menu-item > div.numbers-menu-item-title > div.numbers-menu-item-image > img {
+                    width: 35px;
+                    height: 35px;
+                    padding: 2.5px;
+                }
+
+/* Products */
+
+.products-list .win-container {
+    height: 70px !important;
+}
+
+.products-list .templ .textList {
+    height: 70px !important;
+}
+
+.products-list .templ .list-item-arrow {
+    height: 70px !important;
+    line-height: 70px !important;
+}
+
+/* Product Detail */
+
+div.product-image {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+div.product-image > img {
+    width: 100%;
+    height: 100%;
+    max-width: 80%;
+    max-height: calc(100% * 0.35);
+}
+
+.product-info {
+    color: #023168;
+    font-size: larger;
+    text-align: center;
+}
+
+.product-substances {
+    color: #023168;
+}
+
+.product-attribute {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+    .product-attribute .product-attribute-name {
+        width: calc(100% - 10px);
+        height: auto;
+        background-color: #dddddd;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+        .product-attribute .product-attribute-name .product-attribute-icon {
+            float: right;
+            color: #575756;
+            width: auto;
+            height: auto;
+            font-size: x-large;
+            font-weight: 400;
+            padding-right: 10px;
+        }
+
+    .product-attribute.hidden .product-attribute-detail {
+        display: none;
+    }
+
+    .product-attribute .product-attribute-detail {
+        display: block;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        padding: 10px;
+    }
+
+/* Temporal */
+
+.win-h6 {
+    color: #575756;
+}
+
+/* Interactions */
+
+.interactions-list .win-container {
+    height: 70px !important;
+}
+
+    .interactions-item .interactions-item-text,
+    .interactions-item .interactions-item-checkmark,
+    .interactions-item .interactions-item-cross {
+        height: 70px;
+        float: left;
+    }
+
+    .interactions-item .interactions-item-text {
+        width: calc(100% - 55px);
+        margin: 3px 3px 10px 10px;
+    }
+
+    .interactions-item .interactions-item-checkmark,
+    .interactions-item .interactions-item-cross {
+        width: 35px;
+    }
+
+        .interactions-item .interactions-item-checkmark > span {
+            display: inline-block;
+            width: 44px;
+            height: 44px;
+            transform: rotate(45deg);
+        }
+
+            div.checkmark-stem {
+                width: 6px;
+                height: 18px;
+                background-color: #ffffff;
+                position: absolute;
+                left: 22px;
+                /*top: 12px;*/
+                top: 30px;
+            }
+
+            div.checkmark-kick {
+                width: 6px;
+                height: 6px;
+                background-color: #ffffff;
+                position: absolute;
+                left: 16px;
+                /*top: 24px;*/
+                top: 42px;
+            }
+
+        .interactions-item .interactions-item-checkmark.checked div.checkmark-stem,
+        .interactions-item .interactions-item-checkmark.checked div.checkmark-kick {
+            background-color: #22d65b;
+        }
+
+        .interactions-item .interactions-item-cross {
+            color: #e71123;
+            font-size: xx-large;
+            font-weight: bold;
+            text-align: center;
+            line-height: 60px;
+        }
+
+/* Interactions - Collapsibles */
+
+.interactions-detail {
+    width: 100%;
+    height: 100%;
+}
+
+.interactions-detail-item {
+    width: 100%;
+    height: auto;
+}
+
+.interactions-detail-collapsible-set {
+    width: 100%;
+    height: 100%;
+}
+
+.interactions-detail-collapsible {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1px;
+}
+
+    .interactions-detail-collapsible .interactions-detail-collapsible-name {
+        width: calc(100% - 10px);
+        height: auto;
+        background-color: #dddddd;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+        .interactions-detail-collapsible .interactions-detail-collapsible-name .interactions-detail-collapsible-icon {
+            float: right;
+            color: #575756;
+            width: auto;
+            height: auto;
+            font-size: x-large;
+            font-weight: 400;
+            padding-right: 10px;
+        }
+
+    .interactions-detail-collapsible.hidden .interactions-detail-collapsible-detail {
+        display: none;
+    }
+
+    .interactions-detail-collapsible .interactions-detail-collapsible-detail {
+        display: block;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        padding: 10px;
+    }
+
+/* Interactions - Tables */
+
+.interactions-detail-table {
+    width: 100%;
+    table-layout: fixed;
+    padding: 0;
+    border: 0;
+    border-spacing: 1px;
+    border-collapse: separate;
+    margin: 0;
+}
+
+.interactions-detail-table > thead > tr > th,
+.interactions-detail-table > tbody > tr > td {
+    text-align: center;
+    padding: 5px;
+}
+
+.interactions-detail-table > thead > tr > th {
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #e71123;
+}
+
+.interactions-detail-table > tbody > tr > td {
+    background-color: #dddddd;
+    border: none;
+}
+
+/* Page with App Bar */
+
+div.app-bar-page {
+    width: 100%;
+    position: absolute;
+    left: 0; right: 0; top: 48px; bottom: 48px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+    div.app-bar-page > div.app-bar-page-header {
+        margin: 10px;
+        overflow: hidden;
+    }
+
+    div.app-bar-page > div.app-bar-page-content {
+        width: calc(100% - 20px);
+        height: calc(100% - 58px);
+        margin-left: 10px;
+        margin-right: 10px;
+        overflow: hidden;
+        /*overflow-y: scroll;*/
+        overflow-y: auto;
+    }
+
+    div.app-bar-page > div.app-bar-page-content.no-overflow {
+        overflow: hidden;
+    }
+
+div.app-bar-footer {
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+div.app-bar-footer,
+div.app-bar-footer .win-toolbar {
+    background-color: #dddddd;
+}
+
+/* To add the icon ring: */
+/*.win-toolbar.favorites-bar .win-commandicon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #575756;
+    border-radius: 50%;
+}*/
+
+.win-toolbar .win-commandimage {
+    color: #575756;
+    /*position: absolute;
+    left: 2px; top: 2px;*/
+}
+
+.win-toolbar.favorites-bar .favorite .win-commandimage {
+    color: #fffa00;
+}
+
+    button:enabled:hover:active .win-commandimage,
+    button:enabled:active .win-commandimage {
+        color: #575756;
+    }
+
+    button.win-command.win-command:enabled:hover:active,
+    button.win-command.win-command:enabled:active {
+        background-color: transparent;
+    }
+
+div.custom-list {
+    width: calc(100% - 20px);
+    height: 100%;
+}
+
+    div.custom-list div.custom-list-item {
+        width: 100%;
+        height: 100%;
+        max-height: 70px;
+        overflow: hidden;
+    }
+
+    div.custom-list div.custom-list-item > div {
+        float: left;
+        height: 100%;
+        min-height: 100%;
+        background-color: #dddddd;
+        overflow: hidden;
+    }
+
+    div.custom-list div.custom-list-item div.custom-list-item-content {
+        width: calc(100% - 64px);
+        padding: 5px;
+        margin: 3px;
+    }
+
+    div.custom-list div.custom-list-item div.custom-list-item-icon {
+        width: 42px;
+        text-align: center;
+        line-height: 80px;
+        margin-left: 0;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+        div.custom-list div.custom-list-item div.custom-list-item-icon .win-radio {
+            margin: 0;
+        }
+
+        div.custom-list div.custom-list-item div.custom-list-item-icon .win-radio::-ms-check {
+            color: #023168;
+            border-color: #575756;
+        }
+
+        div.custom-list div.custom-list-item div.custom-list-item-icon .win-radio:hover::-ms-check,
+        div.custom-list div.custom-list-item div.custom-list-item-icon .win-radio:active::-ms-check {
+            color: #023168;
+        }
+
+/* Social Networks */
+
+.social-networks-flyout-container {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    overflow: hidden;
+    z-index: 1000;
+    touch-action: none;
+}
+
+.social-networks-flyout {
+    width: 98%;
+    position: absolute;
+    bottom: 48px; left: 0; right: 0;
+    z-index: 1001;
+}
+
+.win-flyout.social-networks-flyout {
+    border-color: #023168;
+}
+
+.social-networks-flyout .win-link {
+    color: #023168;
+    text-decoration: none;
+}
+
+.social-networks-table {
+    width: 100%;
+    table-layout: fixed;
+    padding: 0;
+    border: 0;
+    border-spacing: 1px;
+    border-collapse: separate;
+    margin: 0;
+}
+
+.social-networks-table > thead > tr > th,
+.social-networks-table > tbody > tr > td {
+    text-align: center;
+    padding: 5px;
+}
+
+.social-networks-table > thead > tr > th {
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #023168;
+}
+
+.social-networks-table > tbody > tr > td {
+    background-color: #dddddd;
+    border: none;
+}
+
+.win-listview.win-selectionstylefilled .win-selected .win-selectionbackground, 
+.win-itemcontainer.win-selectionstylefilled.win-selected .win-selectionbackground {
+    background-color: rgba(2, 49, 104, 0.5) !important;
+}

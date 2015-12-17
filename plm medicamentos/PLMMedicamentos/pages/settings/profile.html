@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <!-- WinJS references -->
+    <script src="../../js/profile.js"></script>
+</head>
+<body>
+    <div class="fragment profile-fragment">
+        <div class="profile-logo">
+            <img src="../../images/graphicalEnvironment/logo/logo_white.png" />
+        </div>
+
+        <h2 class="win-h2 settings center">Perfil</h2>
+        <br />
+
+        <div class="center">
+            <input id="firstName" class="win-textbox" type="text" autocorrect="off" placeholder="Nombre" />
+            <input id="lastName" class="win-textbox" type="text" autocorrect="off" placeholder="Apellido Paterno" />
+            <input id="secondLastName" class="win-textbox" type="text" autocorrect="off" placeholder="Apellido Materno" />
+            <input id="email" class="win-textbox" type="email" disabled />
+
+            <select id="professions" class="win-dropdown"></select>
+
+            <div id="professionsByParentDiv">
+                <select id="professionsByParent" class="win-dropdown"></select>
+            </div>
+
+            <div id="specialitiesDiv">
+                <select id="specialities" class="win-dropdown"></select>
+            </div>
+
+            <div id="residencesDiv">
+                <select id="residences" class="win-dropdown"></select>
+            </div>
+
+            <div id="professionalLicenseDiv">
+                <input id="professionalLicense" class="win-textbox" type="text" autocorrect="off" autocapitalize="off" placeholder="C&eacute;dula Profesional" />
+            </div>
+
+            <select id="countries" class="win-dropdown"></select>
+
+            <div id="statesDiv">
+                <select id="states" class="win-dropdown"></select>
+            </div>
+            <br />
+            <br />
+
+            <div id="noticesDiv">
+                <div>
+                    <input id="termsCheckbox" type="checkbox" class="win-checkbox" />
+                    <label for="termsCheckbox" class="win-label">Aceptar T&eacute;rminos y Condiciones</label>
+                    <br />
+                    <br />
+
+                    <a id="termsAndConditions" class="win-link">T&eacute;rminos y Condiciones</a>
+                </div>
+                <br />
+
+                <div>
+                    <input id="privacyCheckbox" type="checkbox" class="win-checkbox" />
+                    <label for="privacyCheckbox" class="win-label">Aceptar Aviso de Privacidad</label>
+                    <br />
+                    <br />
+
+                    <a id="privacyNotice" class="win-link">Aviso de Privacidad</a>
+                </div>
+                <br />
+                <br />
+            </div>
+
+            <div id="registerProfileButtonDiv">
+                <button id="registerProfile" class="win-button">Registrar</button>
+            </div>
+
+            <div id="saveProfileButtonDiv">
+                <button id="saveProfile" class="win-button">Guardar</button>
+                <button id="cancelProfile" class="win-button">Cancelar</button>
+            </div>
+        </div>
+
+        <br />
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.language-en"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\filemap.language-en.pri"			"resources.pri"
+"C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bld\Debug\PackageLayout\WinJS\js\en-US\ui.strings.js"			"WinJS\js\en-US\ui.strings.js"

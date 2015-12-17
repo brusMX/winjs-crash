@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>healthcareSuppliersBrandsMenu</title>
+
+    <script src="/js/healthcareSuppliersBrandsMenu.js"></script>
+    <script src="/js/healthcareSuppliersSearchEngine.js"></script>
+</head>
+<body>
+    <header aria-label="Header content" role="banner">
+        <h3 class="win-h3 healthcare">Gu&iacute;a de Productos y Servicios</h3>
+
+        <div class="section-search" style="margin: 5px 0px;">
+            <div><input id="searchText" class="win-textbox" type="search" autocorrect="off" autocapitalize="off" placeholder="B&uacute;squeda" /></div>
+            <div><button id="search" class="win-button">&#xE11A;</button></div>
+        </div>
+
+        <h4 id="letterIndex" class="win-h4"></h4>
+    </header>
+
+    <div class="fragment">
+        <div id="emptyList" class="empty-list-letters" style="display:none;">No se encontraron productos asociados a la b&uacute;squeda.</div>
+
+        <div class="brandsList" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <div class="content-list">
+                    <img src="#" class="smallList-Image" data-win-bind="src: imageSource" />
+                    <p class="list-image-text" data-win-bind="innerText: BrandName"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="trademarkIndex" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', itemTemplate: select('.brandsList'), layout: { type: WinJS.UI.ListLayout }}"></div>
+
+
+        <div class="lettersIndex" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <p class="letters" data-win-bind="innerText: letter"></p>
+            </div>
+        </div>
+
+        <div id="lettersIndex" class="listBox" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', itemTemplate: select('.lettersIndex'), layout: { type: WinJS.UI.ListLayout }}"></div>
+
+
+        <div class="menu-item-holder" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <div class="menu-item-count" data-win-bind="innerText: count"></div>
+                <div>
+                    <div class="submenuText" data-win-bind="innerText: displayName"></div>
+                    <div class="menu-item-image">
+                        <img data-win-bind="src: iconImage" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="searchHealthcareList" data-win-control="WinJS.UI.ListView" data-win-options="{
+         itemTemplate: select('.menu-item-holder'), selectionMode: WinJS.UI.SelectionMode.single}"></div>
+
+    </div>
+</body>
+</html>

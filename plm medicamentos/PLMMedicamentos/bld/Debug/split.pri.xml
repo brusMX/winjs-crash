@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="app-config-CAD.xml" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/app-config-CAD.xml">
+				<Candidate type="Path">
+					<Value>app-config-CAD.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="app-config-CHI.xml" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/app-config-CHI.xml">
+				<Candidate type="Path">
+					<Value>app-config-CHI.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="app-config-COL.xml" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/app-config-COL.xml">
+				<Candidate type="Path">
+					<Value>app-config-COL.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="app-config-ECU.xml" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/app-config-ECU.xml">
+				<Candidate type="Path">
+					<Value>app-config-ECU.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="app-config-MEX.xml" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/app-config-MEX.xml">
+				<Candidate type="Path">
+					<Value>app-config-MEX.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="app-config-PER.xml" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/app-config-PER.xml">
+				<Candidate type="Path">
+					<Value>app-config-PER.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PLMMedicamentos.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/PLMMedicamentos.html">
+				<Candidate type="Path">
+					<Value>PLMMedicamentos.html</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="css">
+				<NamedResource name="clinicalAnalyzesIPPStyles.css" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/css/clinicalAnalyzesIPPStyles.css">
+					<Candidate type="Path">
+						<Value>css\clinicalAnalyzesIPPStyles.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersIPPStyles.css" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/css/healthcareSuppliersIPPStyles.css">
+					<Candidate type="Path">
+						<Value>css\healthcareSuppliersIPPStyles.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ippStyles.css" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/css/ippStyles.css">
+					<Candidate type="Path">
+						<Value>css\ippStyles.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="navigation.css" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/css/navigation.css">
+					<Candidate type="Path">
+						<Value>css\navigation.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PLMMedicamentos.css" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/css/PLMMedicamentos.css">
+					<Candidate type="Path">
+						<Value>css\PLMMedicamentos.css</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>images\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>images\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>images\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>images\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>images\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="graphicalEnvironment">
+					<ResourceMapSubtree name="logo">
+						<NamedResource name="logo_blue.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/logo/logo_blue.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\logo\logo_blue.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="logo_white.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/logo/logo_white.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\logo\logo_white.png</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="mainmenu">
+						<NamedResource name="mainmenu_clinical_analyzes.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/mainmenu/mainmenu_clinical_analyzes.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\mainmenu\mainmenu_clinical_analyzes.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="mainmenu_favorites.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/mainmenu/mainmenu_favorites.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\mainmenu\mainmenu_favorites.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="mainmenu_healthcare_suppliers.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/mainmenu/mainmenu_healthcare_suppliers.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\mainmenu\mainmenu_healthcare_suppliers.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="mainmenu_interactions.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/mainmenu/mainmenu_interactions.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\mainmenu\mainmenu_interactions.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="mainmenu_newsletters.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/mainmenu/mainmenu_newsletters.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\mainmenu\mainmenu_newsletters.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="mainmenu_patient_content.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/mainmenu/mainmenu_patient_content.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\mainmenu\mainmenu_patient_content.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="mainmenu_products.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/mainmenu/mainmenu_products.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\mainmenu\mainmenu_products.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="mainmenu_settings.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/mainmenu/mainmenu_settings.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\mainmenu\mainmenu_settings.png</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="submenus">
+						<NamedResource name="submenu_deaci_companiesInvolved.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_companiesInvolved.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_companiesInvolved.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_devicesAndEquipments.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_devicesAndEquipments.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_devicesAndEquipments.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_imagingAndRadiology.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_imagingAndRadiology.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_imagingAndRadiology.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_index.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_index.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_index.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_kitsAndReagents.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_kitsAndReagents.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_kitsAndReagents.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_laboratoriesDirectory.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_laboratoriesDirectory.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_laboratoriesDirectory.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_laboratoryComputing.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_laboratoryComputing.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_laboratoryComputing.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_manufacturersAndDistributors.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_manufacturersAndDistributors.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_manufacturersAndDistributors.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_microbiology.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_microbiology.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_microbiology.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_molecularBiology.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_molecularBiology.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_molecularBiology.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_deaci_stripsAndTablets.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_deaci_stripsAndTablets.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_deaci_stripsAndTablets.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_healthcare_brands.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_healthcare_brands.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_healthcare_brands.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_healthcare_categories.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_healthcare_categories.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_healthcare_categories.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_healthcare_enterprises.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_healthcare_enterprises.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_healthcare_enterprises.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_patient_content_facebook.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_patient_content_facebook.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_patient_content_facebook.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_patient_content_google.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_patient_content_google.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_patient_content_google.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_patient_content_twitter.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_patient_content_twitter.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_patient_content_twitter.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_search_results_indications.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_search_results_indications.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_search_results_indications.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_search_results_laboratories.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_search_results_laboratories.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_search_results_laboratories.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_search_results_products.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_search_results_products.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_search_results_products.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_search_results_substances.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_search_results_substances.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_search_results_substances.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_settings_contact.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_settings_contact.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_settings_contact.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_settings_countries.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_settings_countries.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_settings_countries.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_settings_credits.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_settings_credits.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_settings_credits.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_settings_privacy.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_settings_privacy.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_settings_privacy.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_settings_profile.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_settings_profile.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_settings_profile.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_settings_suggestions.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_settings_suggestions.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_settings_suggestions.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="submenu_settings_terms.png" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/images/graphicalEnvironment/submenus/submenu_settings_terms.png">
+							<Candidate type="Path">
+								<Value>images\graphicalEnvironment\submenus\submenu_settings_terms.png</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="js">
+				<NamedResource name="about.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/about.js">
+					<Candidate type="Path">
+						<Value>js\about.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="app-config.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/app-config.js">
+					<Candidate type="Path">
+						<Value>js\app-config.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ClientsServicesClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/ClientsServicesClass.js">
+					<Candidate type="Path">
+						<Value>js\ClientsServicesClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesBrandsIndex.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesBrandsIndex.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesBrandsIndex.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesCitiesByState.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesCitiesByState.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesCitiesByState.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesCompaniesByBrand.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesCompaniesByBrand.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesCompaniesByBrand.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesCompaniesByCity.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesCompaniesByCity.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesCompaniesByCity.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesCompanyDetail.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesCompanyDetail.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesCompanyDetail.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesCompanyProducts.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesCompanyProducts.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesCompanyProducts.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesDevicesAndEquipments.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesDevicesAndEquipments.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesDevicesAndEquipments.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesGenericsIndex.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesGenericsIndex.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesGenericsIndex.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesImagingAndRadiology.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesImagingAndRadiology.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesImagingAndRadiology.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesImagingAndRadiologyIndex.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesImagingAndRadiologyIndex.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesImagingAndRadiologyIndex.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesIndex.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesIndex.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesIndex.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesKitsAndReagents.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesKitsAndReagents.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesKitsAndReagents.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesLaboratoriesDirectory.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesLaboratoriesDirectory.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesLaboratoriesDirectory.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesLaboratoryComputing.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesLaboratoryComputing.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesLaboratoryComputing.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesManufacturersAndDistributors.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesManufacturersAndDistributors.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesManufacturersAndDistributors.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesMenu.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesMenu.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesMenu.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesMicrobiology.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesMicrobiology.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesMicrobiology.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesMolecularBiology.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesMolecularBiology.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesMolecularBiology.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesParticipatingCompanies.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesParticipatingCompanies.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesParticipatingCompanies.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesProductContent.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesProductContent.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesProductContent.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesProductsBySection.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesProductsBySection.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesProductsBySection.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesSectionsByParent.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesSectionsByParent.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesSectionsByParent.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesStripsAndTablets.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesStripsAndTablets.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesStripsAndTablets.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clinicalAnalyzesTrademarkIndex.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/clinicalAnalyzesTrademarkIndex.js">
+					<Candidate type="Path">
+						<Value>js\clinicalAnalyzesTrademarkIndex.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ConectivityClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/ConectivityClass.js">
+					<Candidate type="Path">
+						<Value>js\ConectivityClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="contact.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/contact.js">
+					<Candidate type="Path">
+						<Value>js\contact.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="countries.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/countries.js">
+					<Candidate type="Path">
+						<Value>js\countries.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CountriesClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/CountriesClass.js">
+					<Candidate type="Path">
+						<Value>js\CountriesClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="error.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/error.js">
+					<Candidate type="Path">
+						<Value>js\error.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="favorites.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/favorites.js">
+					<Candidate type="Path">
+						<Value>js\favorites.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersBrands.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersBrands.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersBrands.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersBrandsByClient.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersBrandsByClient.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersBrandsByClient.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersBrandsMenu.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersBrandsMenu.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersBrandsMenu.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersCategories.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersCategories.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersCategories.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersCategoriesByClient.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersCategoriesByClient.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersCategoriesByClient.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersCategoriesByParent.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersCategoriesByParent.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersCategoriesByParent.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersCategoriesMenu.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersCategoriesMenu.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersCategoriesMenu.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersCategoryDetail.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersCategoryDetail.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersCategoryDetail.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersCategoryDetailByClient.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersCategoryDetailByClient.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersCategoryDetailByClient.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersClientCategoriesByParent.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersClientCategoriesByParent.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersClientCategoriesByParent.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersClientDetail.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersClientDetail.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersClientDetail.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersClients.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersClients.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersClients.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersClientsByBrand.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersClientsByBrand.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersClientsByBrand.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersClientsMenu.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersClientsMenu.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersClientsMenu.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersMenu.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersMenu.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersMenu.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersProductContents.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersProductContents.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersProductContents.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersProducts.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersProducts.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersProducts.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="healthcareSuppliersSearchEngine.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/healthcareSuppliersSearchEngine.js">
+					<Candidate type="Path">
+						<Value>js\healthcareSuppliersSearchEngine.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="indications.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/indications.js">
+					<Candidate type="Path">
+						<Value>js\indications.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="interactions.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/interactions.js">
+					<Candidate type="Path">
+						<Value>js\interactions.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="interactionsIndications.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/interactionsIndications.js">
+					<Candidate type="Path">
+						<Value>js\interactionsIndications.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="interactionsLabs.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/interactionsLabs.js">
+					<Candidate type="Path">
+						<Value>js\interactionsLabs.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="interactionsProducts.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/interactionsProducts.js">
+					<Candidate type="Path">
+						<Value>js\interactionsProducts.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="interactionsResults.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/interactionsResults.js">
+					<Candidate type="Path">
+						<Value>js\interactionsResults.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="interactionsSearchEngine.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/interactionsSearchEngine.js">
+					<Candidate type="Path">
+						<Value>js\interactionsSearchEngine.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InteractionsServicesClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/InteractionsServicesClass.js">
+					<Candidate type="Path">
+						<Value>js\InteractionsServicesClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="interactionsSubstances.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/interactionsSubstances.js">
+					<Candidate type="Path">
+						<Value>js\interactionsSubstances.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="labs.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/labs.js">
+					<Candidate type="Path">
+						<Value>js\labs.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LoaderClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/LoaderClass.js">
+					<Candidate type="Path">
+						<Value>js\LoaderClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LocalStorageClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/LocalStorageClass.js">
+					<Candidate type="Path">
+						<Value>js\LocalStorageClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LogsServicesClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/LogsServicesClass.js">
+					<Candidate type="Path">
+						<Value>js\LogsServicesClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="navigation.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/navigation.js">
+					<Candidate type="Path">
+						<Value>js\navigation.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NavigationClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/NavigationClass.js">
+					<Candidate type="Path">
+						<Value>js\NavigationClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="newsletters.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/newsletters.js">
+					<Candidate type="Path">
+						<Value>js\newsletters.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OrientationClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/OrientationClass.js">
+					<Candidate type="Path">
+						<Value>js\OrientationClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="patientContentMenu.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/patientContentMenu.js">
+					<Candidate type="Path">
+						<Value>js\patientContentMenu.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PharmaServicesClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/PharmaServicesClass.js">
+					<Candidate type="Path">
+						<Value>js\PharmaServicesClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PLMMedicamentos.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/PLMMedicamentos.js">
+					<Candidate type="Path">
+						<Value>js\PLMMedicamentos.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PLMMedicamentosObjects.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/PLMMedicamentosObjects.js">
+					<Candidate type="Path">
+						<Value>js\PLMMedicamentosObjects.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PLMMedicamentosVars.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/PLMMedicamentosVars.js">
+					<Candidate type="Path">
+						<Value>js\PLMMedicamentosVars.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="productDetail.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/productDetail.js">
+					<Candidate type="Path">
+						<Value>js\productDetail.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="products.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/products.js">
+					<Candidate type="Path">
+						<Value>js\products.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="profile.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/profile.js">
+					<Candidate type="Path">
+						<Value>js\profile.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="register.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/register.js">
+					<Candidate type="Path">
+						<Value>js\register.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RESTServicesClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/RESTServicesClass.js">
+					<Candidate type="Path">
+						<Value>js\RESTServicesClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="searchEngine.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/searchEngine.js">
+					<Candidate type="Path">
+						<Value>js\searchEngine.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="settingsMenu.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/settingsMenu.js">
+					<Candidate type="Path">
+						<Value>js\settingsMenu.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="substances.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/substances.js">
+					<Candidate type="Path">
+						<Value>js\substances.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="suggestions.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/suggestions.js">
+					<Candidate type="Path">
+						<Value>js\suggestions.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WindowsStorageClass - Copia.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/WindowsStorageClass - Copia.js">
+					<Candidate type="Path">
+						<Value>js\WindowsStorageClass - Copia.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WindowsStorageClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/WindowsStorageClass.js">
+					<Candidate type="Path">
+						<Value>js\WindowsStorageClass.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="XMLClass.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/js/XMLClass.js">
+					<Candidate type="Path">
+						<Value>js\XMLClass.js</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="pages">
+				<ResourceMapSubtree name="clinicalAnalyzes">
+					<NamedResource name="clinicalAnalyzesBrandsIndex.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesBrandsIndex.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesBrandsIndex.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesCitiesByState.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesCitiesByState.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesCitiesByState.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesCompaniesByBrand.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesCompaniesByBrand.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesCompaniesByBrand.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesCompaniesByCity.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesCompaniesByCity.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesCompaniesByCity.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesCompanyDetail.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesCompanyDetail.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesCompanyDetail.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesCompanyProducts.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesCompanyProducts.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesCompanyProducts.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesDevicesAndEquipments.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesDevicesAndEquipments.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesDevicesAndEquipments.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesGenericsIndex.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesGenericsIndex.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesGenericsIndex.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesImagingAndRadiology.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesImagingAndRadiology.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesImagingAndRadiology.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesImagingAndRadiologyIndex.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesImagingAndRadiologyIndex.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesImagingAndRadiologyIndex.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesIndex.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesIndex.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesIndex.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesKitsAndReagents.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesKitsAndReagents.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesKitsAndReagents.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesLaboratoriesDirectory.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesLaboratoriesDirectory.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesLaboratoriesDirectory.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesLaboratoryComputing.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesLaboratoryComputing.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesLaboratoryComputing.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesManufacturersAndDistributors.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesManufacturersAndDistributors.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesManufacturersAndDistributors.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesMenu.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesMenu.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesMenu.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesMicrobiology.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesMicrobiology.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesMicrobiology.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesMolecularBiology.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesMolecularBiology.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesMolecularBiology.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesParticipatingCompanies.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesParticipatingCompanies.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesParticipatingCompanies.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesProductContent.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesProductContent.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesProductContent.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesProductsBySection.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesProductsBySection.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesProductsBySection.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesSectionsByParent.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesSectionsByParent.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesSectionsByParent.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesStripsAndTablets.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesStripsAndTablets.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesStripsAndTablets.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="clinicalAnalyzesTrademarkIndex.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/clinicalAnalyzes/clinicalAnalyzesTrademarkIndex.html">
+						<Candidate type="Path">
+							<Value>pages\clinicalAnalyzes\clinicalAnalyzesTrademarkIndex.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="error">
+					<NamedResource name="error.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/error/error.html">
+						<Candidate type="Path">
+							<Value>pages\error\error.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="favorites">
+					<NamedResource name="favorites.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/favorites/favorites.html">
+						<Candidate type="Path">
+							<Value>pages\favorites\favorites.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="healthcareSuppliers">
+					<NamedResource name="healthcareSuppliersBrands.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersBrands.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersBrands.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersBrandsByClient.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersBrandsByClient.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersBrandsByClient.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersBrandsMenu.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersBrandsMenu.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersBrandsMenu.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersCategories.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersCategories.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersCategories.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersCategoriesByClient.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersCategoriesByClient.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersCategoriesByClient.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersCategoriesByParent.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersCategoriesByParent.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersCategoriesByParent.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersCategoriesMenu.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersCategoriesMenu.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersCategoriesMenu.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersCategoryDetail.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersCategoryDetail.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersCategoryDetail.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersCategoryDetailByClient.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersCategoryDetailByClient.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersCategoryDetailByClient.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersClientCategoriesByParent.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersClientCategoriesByParent.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersClientCategoriesByParent.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersClientDetail.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersClientDetail.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersClientDetail.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersClients.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersClients.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersClients.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersClientsByBrand.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersClientsByBrand.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersClientsByBrand.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersClientsMenu.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersClientsMenu.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersClientsMenu.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersMenu.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersMenu.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersMenu.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersProductContents.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersProductContents.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersProductContents.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="healthcareSuppliersProducts.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/healthcareSuppliers/healthcareSuppliersProducts.html">
+						<Candidate type="Path">
+							<Value>pages\healthcareSuppliers\healthcareSuppliersProducts.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="indications">
+					<NamedResource name="indications.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/indications/indications.html">
+						<Candidate type="Path">
+							<Value>pages\indications\indications.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="interactions">
+					<NamedResource name="interactions.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/interactions/interactions.html">
+						<Candidate type="Path">
+							<Value>pages\interactions\interactions.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="interactionsIndications.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/interactions/interactionsIndications.html">
+						<Candidate type="Path">
+							<Value>pages\interactions\interactionsIndications.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="interactionsLabs.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/interactions/interactionsLabs.html">
+						<Candidate type="Path">
+							<Value>pages\interactions\interactionsLabs.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="interactionsProducts.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/interactions/interactionsProducts.html">
+						<Candidate type="Path">
+							<Value>pages\interactions\interactionsProducts.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="interactionsResults.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/interactions/interactionsResults.html">
+						<Candidate type="Path">
+							<Value>pages\interactions\interactionsResults.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="interactionsSearchEngine.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/interactions/interactionsSearchEngine.html">
+						<Candidate type="Path">
+							<Value>pages\interactions\interactionsSearchEngine.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="interactionsSubstances.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/interactions/interactionsSubstances.html">
+						<Candidate type="Path">
+							<Value>pages\interactions\interactionsSubstances.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="labs">
+					<NamedResource name="labs.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/labs/labs.html">
+						<Candidate type="Path">
+							<Value>pages\labs\labs.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="navigation">
+					<NamedResource name="navigation.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/navigation/navigation.html">
+						<Candidate type="Path">
+							<Value>pages\navigation\navigation.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="newsletters">
+					<NamedResource name="newsletters.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/newsletters/newsletters.html">
+						<Candidate type="Path">
+							<Value>pages\newsletters\newsletters.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="patientContent">
+					<NamedResource name="patientContentMenu.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/patientContent/patientContentMenu.html">
+						<Candidate type="Path">
+							<Value>pages\patientContent\patientContentMenu.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="products">
+					<NamedResource name="productDetail.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/products/productDetail.html">
+						<Candidate type="Path">
+							<Value>pages\products\productDetail.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="products.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/products/products.html">
+						<Candidate type="Path">
+							<Value>pages\products\products.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="searchEngine.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/products/searchEngine.html">
+						<Candidate type="Path">
+							<Value>pages\products\searchEngine.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="settings">
+					<NamedResource name="about.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/settings/about.html">
+						<Candidate type="Path">
+							<Value>pages\settings\about.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="contact.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/settings/contact.html">
+						<Candidate type="Path">
+							<Value>pages\settings\contact.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="countries.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/settings/countries.html">
+						<Candidate type="Path">
+							<Value>pages\settings\countries.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="profile.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/settings/profile.html">
+						<Candidate type="Path">
+							<Value>pages\settings\profile.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="register.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/settings/register.html">
+						<Candidate type="Path">
+							<Value>pages\settings\register.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="settingsMenu.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/settings/settingsMenu.html">
+						<Candidate type="Path">
+							<Value>pages\settings\settingsMenu.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="suggestions.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/settings/suggestions.html">
+						<Candidate type="Path">
+							<Value>pages\settings\suggestions.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="substances">
+					<NamedResource name="substances.html" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/pages/substances/substances.html">
+						<Candidate type="Path">
+							<Value>pages\substances\substances.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinJS">
+				<ResourceMapSubtree name="css">
+					<NamedResource name="ui-dark.css" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/WinJS/css/ui-dark.css">
+						<Candidate type="Path">
+							<Value>WinJS\css\ui-dark.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ui-light.css" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/WinJS/css/ui-light.css">
+						<Candidate type="Path">
+							<Value>WinJS\css\ui-light.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="fonts">
+					<NamedResource name="Symbols.ttf" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/WinJS/fonts/Symbols.ttf">
+						<Candidate type="Path">
+							<Value>WinJS\fonts\Symbols.ttf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="js">
+					<NamedResource name="base.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/WinJS/js/base.js">
+						<Candidate type="Path">
+							<Value>WinJS\js\base.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ui.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/WinJS/js/ui.js">
+						<Candidate type="Path">
+							<Value>WinJS\js\ui.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ui.strings.js" uri="ms-resource://0c9fd10b-1dfd-483e-8aa8-afcdf0cdc872/Files/WinJS/js/ui.strings.js"/>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

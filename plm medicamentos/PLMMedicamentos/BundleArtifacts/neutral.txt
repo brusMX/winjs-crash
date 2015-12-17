@@ -1,0 +1,2 @@
+MainPackage=C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\Debug\PLMMedicamentos_1.0.1.0_AnyCPU_Debug.appx
+ResourcePack=C:\Users\brmedi\Documents\GitHub\plm medicamentos\PLMMedicamentos\bin\Debug\PLMMedicamentos_1.0.1.0_language-en.appx

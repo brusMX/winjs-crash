@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <!-- WinJS references -->
+    <script src="../../js/searchEngine.js"></script>
+</head>
+<body>
+    <header class="Header content" role="banner">
+        <h3 class="win-h3 products">Buscador de Productos</h3>
+
+        <div class="sectionInfo">
+            En &eacute;sta secci&oacute;n usted podr&aacute; consultar la informaci&oacute;n de los productos por medio de nuestros diferentes cat&aacute;logos.
+        </div>
+        <br />
+
+        <div class="section-search">
+            <div>
+                <input id="searchText" class="win-textbox" type="text" autocorrect="off" autocapitalize="off" placeholder="B&uacute;squeda" />
+            </div>
+            <div>
+                <button id="search" class="win-button">&#xE11A;</button>
+            </div>
+        </div>
+    </header>
+    <div class="fragment">
+        <div class="numbers-menu-holder" data-win-control="WinJS.Binding.Template">
+            <div class="numbers-menu-item">
+                <div class="numbers-menu-item-count" data-win-bind="innerText: count"></div>
+                <div class="numbers-menu-item-title">
+                    <div class="numbers-menu-item-text" data-win-bind="innerText: displayName"></div>
+                    <div class="numbers-menu-item-image">
+                        <img data-win-bind="src: iconImage" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="resultsList" class="numbers-menu products"
+             data-win-control="WinJS.UI.ListView"
+             data-win-options="{
+                itemTemplate: select('.numbers-menu-holder'),
+                selectionMode: WinJS.UI.SelectionMode.single,
+             }"></div>
+
+        
+    </div>
+</body>
+</html>

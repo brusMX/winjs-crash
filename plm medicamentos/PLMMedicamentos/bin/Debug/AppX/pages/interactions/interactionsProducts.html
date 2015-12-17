@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <!-- WinJS references -->
+    <script src="../../js/interactionsProducts.js"></script>
+</head>
+<body>
+    <header class="Header content" role="banner">
+        <h3 class="win-h3 interactions">Interacciones Medicamentosas</h3>
+        <h4 class="win-h4">Buscador de Productos</h4>
+        <h6 class="win-h6">Productos</h6>
+    </header>
+    <div class="fragment">
+        <div class="list-item-holder" data-win-control="WinJS.Binding.Template">
+            <div class="interactions-item">
+                <div class="interactions-item-text">
+                    <span data-win-bind="innerText: Brand"></span><br />
+                    <i><span data-win-bind="innerText: PharmaForm"></span></i>
+                </div>
+                <div data-win-bind="className: ClassName">
+                    <span>
+                        <div class="checkmark-stem"></div>
+                        <div class="checkmark-kick"></div>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="resultsList" class="interactions-list"
+             data-win-control="WinJS.UI.ListView"
+             data-win-options="{
+                itemTemplate: select('.list-item-holder'),
+                selectionMode: WinJS.UI.SelectionMode.single,
+                layout: { type: WinJS.UI.ListLayout },
+             }"></div>
+    </div>
+</body>
+</html>

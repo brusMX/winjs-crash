@@ -1,0 +1,563 @@
+<style>
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #FFFFFF; 
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+p.normal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p.t-tulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #0066CC;
+	text-transform:uppercase;
+}
+
+p.st-tulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #0066CC;
+	text-transform:uppercase;
+}
+
+p.t-tulo-prod-nuevo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #0066CC;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+p.st-tulo-prod-nuevo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #0066CC;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+p.t-tulo-prod-nuevo-2-l-neas {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #0066CC;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+p.st-tulo-prod-nuevo-2-l-neas {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #0066CC;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+p.t-tulo-copy {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003399;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+p.medio-de-d-prod-nuevo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+p.t-tulo-prod-nuevo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #0066CC;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+p.forma-farmac- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #993300;
+	font-weight: bold;
+}
+
+p.ingrediente {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+}
+
+p.texto-de-leyendas-de-prot- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-align: justify;
+}
+
+p.pie1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+p.pie {
+	color: #993300;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+p.tabla-prod {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center; 
+}
+
+p.tabla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+p.pie-de-tabla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #993300;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.bandos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-indent: 12px;
+}
+
+p.base-de-prop- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p.medio-de-d- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+}							
+
+p.pie-de-tabla-2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #993300;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.bandos1 {                                               
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-indent: 12px;
+}
+                                           
+p.pie-de-columna {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+p.biblio-refe {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+p.corniza-derecha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+p.corniza-izquierda {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+p.x-ning-n-estilo-de-p-rrafo- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p.antetitulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000FF;
+}
+
+p.cuadro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	text-align: center;
+}
+
+p.t-tulo-copia {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003399;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+p.t-tulo-copia-2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003399;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+span.rubros-azules {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:  #0033CC;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+span.negro-normal {
+	font-weight:bold;
+}
+
+span.puntos-formulaci-n {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+span.superindice-tit {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align:super;
+}
+
+span.superindice {
+	vertical-align:super;
+	font-size:12px;
+}
+
+span.cursivo-normal{
+	font-style:italic;
+}
+
+span.subindice {
+	vertical-align:sub;	
+}
+
+span.negro-cursivo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:italic;
+	font-weight:bold;
+}
+
+span.negro-superindice {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align:super;
+	font-weight:bold;
+}
+
+span.negro-subindice {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align:sub;
+	font-weight:bold;
+}
+
+span.symbolprop-bt-sub-ndice {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align:sub;
+}
+
+span.symbol-subindice {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align:sub;
+}
+
+span.tabla-negro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+span.negro-normal {
+	font-weight:bold;
+}
+
+span.symbol {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+span.symbolprop-bt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+span.subt-tulo {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+td{
+	border:1px solid #000000;
+}
+
+td.normal-tabla-prod {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+td.pantalla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+td.tabla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.NomLab{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0066CC;
+}
+				  
+.indicacion{
+	a:link color: #999999;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #993300;
+}
+
+.Ind_producto{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+				  
+.sustancia{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.solos{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #006699;
+}
+
+.combinados{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #006699;
+}
+
+.Sust_ProductoLink{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}				
+
+.Lab_laboratorio{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #663300;
+}
+
+.Lab_Datos{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.Lab_productoLink{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0033CC;
+}
+
+.Lab_productoNoLink{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.Marca_productoLink{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+}
+
+.tituloIndice{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #993300;
+}
+
+.ATC_Level{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+			  
+.sidef{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.sombra{
+	background-color:Yellow;
+}
+
+.thera_key{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	font-size: 13px;
+}
+
+.pantalla{
+	background-color:Silver;
+   
+}
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+p.Normal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p.T-tulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #0066CC;
+	text-transform:uppercase;
+}
+
+span.Rubros-azules {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:  #0033CC;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+p.Base-de-prop- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p.Forma-farmac- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #993300;
+	font-weight: bold;
+}
+
+p.Ingrediente {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+}
+
+p.Pie-de-tabla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #993300;
+	font-weight: bold;
+	text-align: center;
+}
+
+span.SuperIndice {
+	vertical-align:super;
+	font-size:12px;
+}
+
+span.Negro-Normal {
+	font-weight:bold;
+}
+
+p.Bandos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-indent: 12px;
+}
+p.Texto-de-leyendas-de-prot- {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-align: justify;
+}
+p.Pie1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+p.Pie {
+	color: #993300;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+span.Symbol {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+span.Cursivo-Normal{
+	font-style:italic;
+}
+
+span.Negro-Cursivo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:italic;
+	font-weight:bold;
+}
+ 
+ span.SymbolProp-BT {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p.Tabla_prod {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center; 
+}
+
+p.Tabla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+</style>

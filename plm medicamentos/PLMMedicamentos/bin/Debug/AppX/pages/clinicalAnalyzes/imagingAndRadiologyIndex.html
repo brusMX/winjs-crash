@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>ImagingAndRadiologyIndex</title>
+
+    <!--<link href="ImagingAndRadiologyIndex.css" rel="stylesheet" />-->
+    <script src="/js/imagingAndRadiologyIndex.js"></script>
+</head>
+<body>
+    <header aria-label="Header content" role="banner">
+        <h3 class="win-h3">Buscador de an&aacute;lisis Clínicos e Imageneolog&iacute;a</h3>
+        <h3 class="deaciTitles">&Iacute;ndice General de Imagenolog&iacute;a y Radiodiagn&oacute;stico</h3>
+        <h3 class="subtitles">Secciones</h3>
+    </header>
+
+    <div class="fragment">
+        <div id="productsList" style="display:none;">No se encontraron productos asociados a la b&uacute;squeda.</div>
+        <div class="trademarkIndex" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <p class="textList" data-win-bind="innerText: Description"></p>
+            </div>
+        </div>
+        <div id="trademarkIndex" class="listBox" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', itemTemplate: select('.trademarkIndex'), layout: { type: WinJS.UI.ListLayout }}"></div>
+
+
+        <div class="lettersIndex" data-win-control="WinJS.Binding.Template">
+            <div class="templ">
+                <p class="letters" data-win-bind="innerText: letter"></p>
+            </div>
+        </div>
+        <div id="lettersIndex" class="listBox" data-win-control="WinJS.UI.ListView" data-win-options="{
+		    	selectionMode: 'single', itemTemplate: select('.lettersIndex'), layout: { type: WinJS.UI.ListLayout }}"></div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<application name="PLM Medicamentos" version="3.0.0">
+	
+	<application-info name="Application-Info">
+	
+	<css-file>PLMMedicamentos.css</css-file>
+	<target>Windows_Phone</target>
+	<prefix>PLMMEDICAMEMOV3</prefix>
+	<resolution-key>320</resolution-key>
+	<atlas-uri></atlas-uri>
+	
+	<edition id="132" />
+	<country id="11" key="MEX" />
+	<interactions id="132" />
+	
+	<sponsor DivisionId="" />
+	
+	<specialities>
+		<speciality></speciality>
+	</specialities>
+	
+	<active-substances>
+		<substance englishDescription=""></substance>
+	</active-substances>
+	
+	<IPPA-sponsor-products>
+		<product DivisionId="" CategoryId="" ProductId="" PharmaFormId=""></product>
+	</IPPA-sponsor-products>
+	
+	</application-info>
+	
+	<spinner name="CustomizedSpinner" rows="1" cols="1" visible="true">
+		<brand-image x="0" y="0"></brand-image>
+	</spinner>
+	
+	<header name="Application-header" visible="true">        
+		<contextual-menu visible="true" />
+		<favourites visible="true" />
+		<settings visible="true" />
+		<country-menu visible="true" />
+	</header>
+	
+	<splash name="Main-Splash" visible="true">
+		<splash-entry>Splash HTML file</splash-entry>
+	</splash>
+	
+	<working-area name="Working-area" visible="true">
+		<main-entry>Main HTML file</main-entry>
+	</working-area>
+	
+	<footer name="Application-footer" visible="true">
+		<contextual-menu visible="true" />
+		<favourites visible="true" />
+		<settings visible="true" />
+		<country-menu visible="true" /> 
+	</footer>
+	
+	<ad name="Application-Ads" visible="true">
+		<image visible="true" order="0"></image>
+	</ad>
+	
+	<section name="Products" plmId="BUSCADOR" visible="true" contextual-menu="false" banner="false" infoType="Product-info-type">
+	
+		<uri>pages/products/searchEngine.html</uri>
+		<resource-uri></resource-uri>
+		<bar-image></bar-image>
+		<icon-image>images/graphicalEnvironment/mainmenu/mainmenu_products.png</icon-image>
+		<display-name>Buscador de Medicamentos</display-name>
+		
+	</section>
+	
+	<section name="Interactions" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+	
+		<uri>pages/interactions/interactions.html</uri>
+		<resource-uri></resource-uri>
+		<bar-image></bar-image>
+		<icon-image>images/graphicalEnvironment/mainmenu/mainmenu_interactions.png</icon-image>
+		<display-name>Interacciones Medicamentosas</display-name>
+		
+	</section>
+	
+	<section name="HealthcareSuppliers" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+	
+		<uri>pages/healthcareSuppliers/healthcareSuppliersMenu.html</uri>
+		<resource-uri></resource-uri>
+		<bar-image></bar-image>
+		<icon-image>images/graphicalEnvironment/mainmenu/mainmenu_healthcare_suppliers.png</icon-image>
+		<display-name>Guía de Productos y Servicios en el Área de la Salud</display-name>
+		
+		<sub-section name="Categories" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri>pages/healthcareSuppliers/healthcareSuppliersCategoriesMenu.html</uri>
+			<resource-uri></resource-uri>
+			<bar-image></bar-image>
+			<icon-image>/images/graphicalEnvironment/submenus/submenu_healthcare_categories.png</icon-image>
+			<display-name>Categorías de Productos</display-name>
+		</sub-section>
+		
+		<sub-section name="Brands" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri>pages/healthcareSuppliers/healthcareSuppliersBrandsMenu.html</uri>
+			<resource-uri></resource-uri>
+			<bar-image></bar-image>
+			<icon-image>/images/graphicalEnvironment/submenus/submenu_healthcare_brands.png</icon-image>
+			<display-name>Marcas</display-name>
+		</sub-section>
+		
+		<sub-section name="Clients" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri>pages/healthcareSuppliers/healthcareSuppliersClientsMenu.html</uri>
+			<resource-uri></resource-uri>
+			<bar-image></bar-image>
+			<icon-image>/images/graphicalEnvironment/submenus/submenu_healthcare_enterprises.png</icon-image>
+			<display-name>Empresas</display-name>
+		</sub-section>
+		
+	</section>
+	
+	<section name="ClinicalAnalyzes" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+	
+		<uri>pages/clinicalAnalyzes/clinicalAnalyzesMenu.html</uri>
+		<resource-uri></resource-uri>
+		<bar-image></bar-image>
+		<icon-image>/images/graphicalEnvironment/mainmenu/mainmenu_clinical_analyzes.png</icon-image>
+		<display-name>Buscador de Análisis Clínicos e Imagenología</display-name>
+
+      <sub-section name="CompaniesInvolved" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesParticipatingCompanies.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_companiesInvolved.png</icon-image>
+        <display-name>Compañías Participantes</display-name>
+      </sub-section>
+
+      <sub-section name="Index" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesIndex.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_index.png</icon-image>
+        <display-name>Índices</display-name>
+        
+        <sub-section name="TradenameIndex" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+          <uri>pages/clinicalAnalyzes/clinicalAnalyzesTrademarkIndex.html</uri>
+          <resource-uri></resource-uri>
+          <bar-image></bar-image>
+          <icon-image></icon-image>
+          <display-name>Índice General por Nombre Comercial</display-name>
+        </sub-section>
+
+        <sub-section name="GenericsIndex" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+          <uri>pages/clinicalAnalyzes/clinicalAnalyzesGenericsIndex.html</uri>
+          <resource-uri></resource-uri>
+          <bar-image></bar-image>
+          <icon-image></icon-image>
+          <display-name>Índice General por Genéricos</display-name>
+        </sub-section>
+
+        <sub-section name="ImagingAndRadiologyIndex" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+          <uri>pages/clinicalAnalyzes/clinicalAnalyzesImagingAndRadiologyIndex.html</uri>
+          <resource-uri></resource-uri>
+          <bar-image></bar-image>
+          <icon-image></icon-image>
+          <display-name>Índice General de Imagenología y Radiodiagnóstico</display-name>
+        </sub-section>
+
+        <sub-section name="BrandsIndex" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+          <uri>pages/clinicalAnalyzes/clinicalAnalyzesBrandsIndex.html</uri>
+          <resource-uri></resource-uri>
+          <bar-image></bar-image>
+          <icon-image></icon-image>
+          <display-name>Índice de Marcas</display-name>
+        </sub-section>
+        
+      </sub-section>
+
+      <sub-section name="ManufacturersAndDistributors" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesManufacturersAndDistributors.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_manufacturersAndDistributors.png</icon-image>
+        <display-name>Fabricantes y Distribuidores</display-name>
+      </sub-section>
+
+      <sub-section name="DevicesAndEquipments" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesDevicesAndEquipments.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_devicesAndEquipments.png</icon-image>
+        <display-name>Aparatos y Equipos Automatizados</display-name>
+      </sub-section>
+
+      <sub-section name="KitsAndReagents" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesKitsAndReagents.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_kitsAndReagents.png</icon-image>
+        <display-name>Kits y Reactivos</display-name>
+      </sub-section>
+
+      <sub-section name="MolecularBiology" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesMolecularBiology.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_molecularBiology.png</icon-image>
+        <display-name>Biología Molecular</display-name>
+      </sub-section>
+
+      <sub-section name="Microbiology" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesMicrobiology.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_microbiology.png</icon-image>
+        <display-name>Microbiología</display-name>
+      </sub-section>
+
+      <sub-section name="StripsAndTablets" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesStripsAndTablets.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_stripsAndTablets.png</icon-image>
+        <display-name>Tiras y Tabletas Reactivas</display-name>
+      </sub-section>
+
+      <sub-section name="LaboratoryComputing" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesLaboratoryComputing.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_laboratoryComputing.png</icon-image>
+        <display-name>Informática para el Laboratorio</display-name>
+      </sub-section>
+
+      <sub-section name="ImagingAndRadiology" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesImagingAndRadiology.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_imagingAndRadiology.png</icon-image>
+        <display-name>Imagenología y Radiodiagnóstico</display-name>
+      </sub-section>
+
+      <sub-section name="LaboratoriesDirectory" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+        <uri>pages/clinicalAnalyzes/clinicalAnalyzesLaboratoriesDirectory.html</uri>
+        <resource-uri></resource-uri>
+        <bar-image></bar-image>
+        <icon-image>/images/graphicalEnvironment/submenus/submenu_deaci_laboratoriesDirectory.png</icon-image>
+        <display-name>Directorio de Laboratorios</display-name>
+      </sub-section>
+
+    </section>
+
+  <section name="Pharmacovigilance" plmId="" visible="false" contextual-menu="false" banner="false" infoType="">
+	
+		<uri></uri>
+		<resource-uri></resource-uri>
+		<bar-image></bar-image>
+		<icon-image></icon-image>
+		<display-name>Farmacovigilancia</display-name>
+		
+	</section>
+	
+	<section name="PatientContent" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+	
+		<uri>pages/patientContent/patientContentMenu.html</uri>
+		<resource-uri></resource-uri>
+		<bar-image></bar-image>
+		<icon-image>images/graphicalEnvironment/mainmenu/mainmenu_patient_content.png</icon-image>
+		<display-name>Contenido Para Pacientes</display-name>
+
+    <sub-section name="Twitter" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+      <uri></uri>
+      <resource-uri>https://twitter.com/plmguiasalud</resource-uri>
+      <bar-image></bar-image>
+      <icon-image>images/graphicalEnvironment/submenus/submenu_patient_content_twitter.png</icon-image>
+      <display-name>Twitter</display-name>
+    </sub-section>
+		
+		<sub-section name="Facebook" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri></uri>
+			<resource-uri>https://www.facebook.com/PLM-M%C3%A9xico-616398421760757/timeline/</resource-uri>
+			<bar-image></bar-image>
+			<icon-image>images/graphicalEnvironment/submenus/submenu_patient_content_facebook.png</icon-image>
+			<display-name>Facebook</display-name>
+		</sub-section>
+		
+		<sub-section name="Google" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri></uri>
+			<resource-uri>https://plus.google.com/b/100714473943921949543/100714473943921949543/posts</resource-uri>
+			<bar-image></bar-image>
+      <icon-image>images/graphicalEnvironment/submenus/submenu_patient_content_google.png</icon-image>
+			<display-name>Google+</display-name>
+		</sub-section>
+		
+	</section>
+	
+	<section name="Favorites" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+	
+		<uri>pages/favorites/favorites.html</uri>
+		<resource-uri></resource-uri>
+		<bar-image></bar-image>
+		<icon-image>images/graphicalEnvironment/mainmenu/mainmenu_favorites.png</icon-image>
+		<display-name>Favoritos</display-name>
+		
+	</section>
+  
+  <section name="Newsletters" plmId="" visible="true" contextual-menu="false" banner="false" infoType="Notas_Medicas">
+	
+		<uri>pages/newsletters/newsletters.html</uri>
+		<resource-uri></resource-uri>
+		<bar-image></bar-image>
+		<icon-image>images/graphicalEnvironment/mainmenu/mainmenu_newsletters.png</icon-image>
+		<display-name>Newsletters</display-name>
+    
+    <social-netwoks name="Newsletters-social-nertworks" visible="true">
+			<network name="Facebook">
+				<display-name>Facebook</display-name>
+				<icon-image></icon-image>
+			</network>
+			<network name="Twitter">
+				<display-name>Twitter</display-name>
+				<icon-image></icon-image>
+			</network>
+			<network name="LinkedIn">
+				<display-name>LinkedIn</display-name>
+				<icon-image></icon-image>
+			</network>
+			<network name="Email">
+				<display-name>Email</display-name>
+				<icon-image></icon-image>
+			</network>
+		</social-netwoks>
+    
+	</section>
+	
+	<section name="Settings" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+	
+		<uri>pages/settings/settingsMenu.html</uri>
+		<resource-uri></resource-uri>
+		<bar-image></bar-image>
+		<icon-image>images/graphicalEnvironment/mainmenu/mainmenu_settings.png</icon-image>
+		<display-name>Configuración</display-name>
+		
+		<sub-section name="Profile" plmId="PERFIL" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri>pages/settings/profile.html</uri>
+			<resource-uri></resource-uri>
+			<bar-image></bar-image>
+			<icon-image>images/graphicalEnvironment/submenus/submenu_settings_profile.png</icon-image>
+			<display-name>Perfil</display-name>
+		</sub-section>
+    
+    <sub-section name="Countries" plmId="" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri>pages/settings/countries.html</uri>
+			<resource-uri></resource-uri>
+			<bar-image></bar-image>
+      <icon-image>images/graphicalEnvironment/submenus/submenu_settings_countries.png</icon-image>
+			<display-name>Países</display-name>
+		</sub-section>
+			
+		<sub-section name="Contact" plmId="CONTACTO" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri>pages/settings/contact.html</uri>
+			<resource-uri></resource-uri>
+			<bar-image></bar-image>
+      <icon-image>images/graphicalEnvironment/submenus/submenu_settings_contact.png</icon-image>
+			<display-name>Contacto</display-name>
+		</sub-section>
+			
+		<sub-section name="Suggestions" plmId="SUGERENCIAS" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri>pages/settings/suggestions.html</uri>
+			<resource-uri></resource-uri>
+			<bar-image></bar-image>
+      <icon-image>images/graphicalEnvironment/submenus/submenu_settings_suggestions.png</icon-image>
+			<display-name>Sugerencias</display-name>
+		</sub-section>
+			
+		<sub-section name="Terms" plmId="TERMINOS" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri></uri>
+			<resource-uri>http://www.plmconnection.com/plmservices/moviles/mexico/plmmedicamentos/windows10/terminos/terms-mex.htm</resource-uri>
+			<bar-image></bar-image>
+      <icon-image>images/graphicalEnvironment/submenus/submenu_settings_terms.png</icon-image>
+			<display-name>Términos y Condiciones</display-name>
+		</sub-section>
+			
+		<sub-section name="Credits" plmId="CREDITOS" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri>pages/settings/about.html</uri>
+			<resource-uri>resources/credits-MEX.htm</resource-uri>
+			<bar-image></bar-image>
+      <icon-image>images/graphicalEnvironment/submenus/submenu_settings_credits.png</icon-image>
+			<display-name>Créditos</display-name>
+		</sub-section>
+			
+		<sub-section name="Privacy" plmId="PRIVACIDAD" visible="true" contextual-menu="false" banner="false" infoType="">
+			<uri></uri>
+			<resource-uri>http://www.plmconnection.com/plmservices/moviles/mexico/plmmedicamentos/windows10/avisoprivacidad/privacy-mex.htm</resource-uri>
+			<bar-image></bar-image>
+      <icon-image>images/graphicalEnvironment/submenus/submenu_settings_privacy.png</icon-image>
+			<display-name>Aviso de Privacidad</display-name>
+		</sub-section>
+		
+	</section>
+	
+</application>
